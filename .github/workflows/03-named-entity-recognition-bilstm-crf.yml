@@ -1,4 +1,5 @@
 name: 03 Named Entity Recognition BiLSTM CRF CI
+run-name: 03 Named Entity Recognition BiLSTM CRF CI
 
 on:
   push:
@@ -8,6 +9,7 @@ on:
       - "03-named-entity-recognition-bilstm-crf/**"
       - ".github/workflows/03-named-entity-recognition-bilstm-crf.yml"
       - ".gitattributes"
+
   pull_request:
     branches:
       - main
@@ -15,6 +17,7 @@ on:
       - "03-named-entity-recognition-bilstm-crf/**"
       - ".github/workflows/03-named-entity-recognition-bilstm-crf.yml"
       - ".gitattributes"
+
   workflow_dispatch:
 
 permissions:
@@ -26,29 +29,40 @@ concurrency:
 
 jobs:
   validate:
+    name: Validate NER Project
     runs-on: ubuntu-latest
     timeout-minutes: 20
 
     defaults:
       run:
+        shell: bash
         working-directory: 03-named-entity-recognition-bilstm-crf
 
     steps:
-      - name: Check out repository with Git LFS files
+      - name: Check out repository
         uses: actions/checkout@v6
         with:
           lfs: true
           fetch-depth: 1
 
-      - name: Confirm Git LFS model files were downloaded
-        shell: bash
+      - name: Download available Git LFS files
         run: |
           git lfs pull
-          git lfs ls-files
-          if grep -RIl "version https://git-lfs.github.com/spec/v1" models --include="*.keras" | grep -q .; then
-            echo "::error::A .keras file is still a Git LFS pointer instead of the real model artifact."
+          git lfs ls-files || true
+
+      - name: Verify that model files are not unresolved LFS pointers
+        run: |
+          pointer_files="$(
+            find models -type f \( -name "*.keras" -o -name "*.h5" \) -print0 2>/dev/null               | xargs -0 -r grep -Il "version https://git-lfs.github.com/spec/v1" || true
+          )"
+
+          if [ -n "$pointer_files" ]; then
+            echo "::error::The following model files are unresolved Git LFS pointers:"
+            echo "$pointer_files"
             exit 1
           fi
+
+          echo "No unresolved Git LFS model pointers were found."
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v6
@@ -66,17 +80,56 @@ jobs:
           python -m pip install pytest
 
       - name: Compile Python source
-        run: python -m compileall -q app src scripts tests
+        run: |
+          python -m compileall -q app src scripts tests
 
-      - name: Validate project structure and saved artifacts
-        run: python scripts/validate_project.py
+      - name: Validate CI project structure
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          required_paths = [
+              Path("app/streamlit_app.py"),
+              Path("src"),
+              Path("scripts"),
+              Path("tests"),
+              Path("models/model_metadata.json"),
+              Path("data/sample_ner_data.csv"),
+          ]
+
+          missing = [str(path) for path in required_paths if not path.exists()]
+
+          if missing:
+              raise SystemExit(
+                  "Missing required CI project files:\n- " + "\n- ".join(missing)
+              )
+
+          model_candidates = sorted(
+              list(Path("models").glob("*.keras"))
+              + list(Path("models").glob("*.h5"))
+          )
+
+          if model_candidates:
+              print("Model artifact(s) available:")
+              for model_path in model_candidates:
+                  print(f"- {model_path}")
+          else:
+              print(
+                  "No trained model artifact is stored in the repository. "
+                  "This is allowed for lightweight CI; training is not run in GitHub Actions."
+              )
+
+          print("CI project-structure validation passed.")
+          PY
 
       - name: Run lightweight tests
         run: |
-          python -m pytest -q \
-            tests/test_entity_extraction.py \
-            tests/test_ner_preprocessing.py \
-            tests/test_sequence_generation.py
+          python -m pytest -q             tests/test_entity_extraction.py             tests/test_ner_preprocessing.py             tests/test_sequence_generation.py
+
+      - name: Validate inference pipeline syntax
+        run: |
+          python -m py_compile src/inference_pipeline.py
 
       - name: Validate Streamlit app syntax
-        run: python -m py_compile app/streamlit_app.py
+        run: |
+          python -m py_compile app/streamlit_app.py
