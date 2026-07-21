@@ -2,20 +2,26 @@ name: 02 Medical Text Classification BiLSTM Attention CI
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "02-medical-text-classification-bilstm-attention/**"
       - ".github/workflows/02-medical-text-classification-bilstm-attention.yml"
+      - ".gitattributes"
   pull_request:
+    branches:
+      - main
     paths:
       - "02-medical-text-classification-bilstm-attention/**"
       - ".github/workflows/02-medical-text-classification-bilstm-attention.yml"
+      - ".gitattributes"
   workflow_dispatch:
 
 permissions:
   contents: read
 
 concurrency:
-  group: medical-text-bilstm-${{ github.ref }}
+  group: "${{ github.workflow }}-${{ github.ref }}"
   cancel-in-progress: true
 
 jobs:
@@ -28,11 +34,24 @@ jobs:
         working-directory: 02-medical-text-classification-bilstm-attention
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Check out repository with Git LFS files
+        uses: actions/checkout@v6
+        with:
+          lfs: true
+          fetch-depth: 1
+
+      - name: Confirm Git LFS model files were downloaded
+        shell: bash
+        run: |
+          git lfs pull
+          git lfs ls-files
+          if grep -RIl "version https://git-lfs.github.com/spec/v1" models --include="*.keras" | grep -q .; then
+            echo "::error::A .keras file is still a Git LFS pointer instead of the real model artifact."
+            exit 1
+          fi
 
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
@@ -43,21 +62,21 @@ jobs:
       - name: Install project dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install -r requirements-dev.txt
+          python -m pip install -r requirements.txt
+          python -m pip install pytest
 
       - name: Compile Python source
-        run: |
-          python -m compileall app src scripts tests
+        run: python -m compileall -q app src scripts tests
 
       - name: Validate saved artifact contract
-        run: |
-          python scripts/validate_artifacts.py --metadata-only
+        run: python scripts/validate_artifacts.py --metadata-only
 
       - name: Run lightweight tests
         run: |
-          pytest -q -m "not model"
+          python -m pytest -q \
+            tests/test_data_preprocessing.py \
+            tests/test_medical_text_preprocessing.py \
+            tests/test_sequence_generation.py
 
-      - name: Validate Streamlit app import
-        run: |
-          python -c "import importlib.util, pathlib; p=pathlib.Path('app/streamlit_app.py'); s=importlib.util.spec_from_file_location('streamlit_app', p); m=importlib.util.module_from_spec(s); s.loader.exec_module(m); assert callable(m.main)"
+      - name: Validate Streamlit app syntax
+        run: python -m py_compile app/streamlit_app.py

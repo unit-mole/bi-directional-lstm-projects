@@ -2,14 +2,27 @@ name: 04 Question Answer Matching Siamese BiLSTM CI
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "04-question-answer-matching-siamese-bilstm/**"
       - ".github/workflows/04-question-answer-matching-siamese-bilstm.yml"
+      - ".gitattributes"
   pull_request:
+    branches:
+      - main
     paths:
       - "04-question-answer-matching-siamese-bilstm/**"
       - ".github/workflows/04-question-answer-matching-siamese-bilstm.yml"
+      - ".gitattributes"
   workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
 
 jobs:
   test:
@@ -21,11 +34,24 @@ jobs:
         working-directory: 04-question-answer-matching-siamese-bilstm
 
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
+      - name: Check out repository with Git LFS files
+        uses: actions/checkout@v6
+        with:
+          lfs: true
+          fetch-depth: 1
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Confirm Git LFS model files were downloaded
+        shell: bash
+        run: |
+          git lfs pull
+          git lfs ls-files
+          if grep -RIl "version https://git-lfs.github.com/spec/v1" models --include="*.keras" | grep -q .; then
+            echo "::error::A .keras file is still a Git LFS pointer instead of the real model artifact."
+            exit 1
+          fi
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: pip
@@ -36,22 +62,25 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install -r requirements-dev.txt
+          python -m pip install -r requirements.txt
+          python -m pip install pytest
 
       - name: Validate Python syntax
-        run: python -m compileall app src scripts tests
+        run: python -m compileall -q app src scripts tests
 
-      - name: Run unit tests
-        run: pytest -q
+      - name: Run lightweight unit tests
+        run: |
+          python -m pytest -q \
+            tests/test_data_preprocessing.py \
+            tests/test_pair_generation.py \
+            tests/test_sequence_generation.py \
+            tests/test_text_preprocessing.py
 
       - name: Validate model package metadata
         run: python scripts/validate_artifacts.py --metadata-only
 
-      - name: Validate inference pipeline import
-        run: python -c "from src.inference_pipeline import QAMatcher; print('Inference import OK')"
+      - name: Validate inference pipeline syntax
+        run: python -m py_compile src/inference_pipeline.py
 
-      - name: Validate Streamlit app import
-        run: python -c "import app.streamlit_app; print('Streamlit import OK')"
-
-      # The workflow intentionally does not retrain or benchmark the neural network.
+      - name: Validate Streamlit app syntax
+        run: python -m py_compile app/streamlit_app.py

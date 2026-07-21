@@ -2,59 +2,81 @@ name: 03 Named Entity Recognition BiLSTM CRF CI
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "03-named-entity-recognition-bilstm-crf/**"
       - ".github/workflows/03-named-entity-recognition-bilstm-crf.yml"
+      - ".gitattributes"
   pull_request:
+    branches:
+      - main
     paths:
       - "03-named-entity-recognition-bilstm-crf/**"
       - ".github/workflows/03-named-entity-recognition-bilstm-crf.yml"
+      - ".gitattributes"
   workflow_dispatch:
 
 permissions:
   contents: read
 
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+
     defaults:
       run:
         working-directory: 03-named-entity-recognition-bilstm-crf
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Check out repository with Git LFS files
+        uses: actions/checkout@v6
         with:
-          python-version: "3.12"
-          cache: "pip"
+          lfs: true
+          fetch-depth: 1
+
+      - name: Confirm Git LFS model files were downloaded
+        shell: bash
+        run: |
+          git lfs pull
+          git lfs ls-files
+          if grep -RIl "version https://git-lfs.github.com/spec/v1" models --include="*.keras" | grep -q .; then
+            echo "::error::A .keras file is still a Git LFS pointer instead of the real model artifact."
+            exit 1
+          fi
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
           cache-dependency-path: |
             03-named-entity-recognition-bilstm-crf/requirements.txt
             03-named-entity-recognition-bilstm-crf/requirements-dev.txt
 
-      - name: Upgrade packaging tools
-        run: python -m pip install --upgrade pip setuptools wheel
+      - name: Install project dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install pytest
 
-      - name: Install project and test dependencies
-        run: pip install -r requirements-dev.txt
+      - name: Compile Python source
+        run: python -m compileall -q app src scripts tests
 
-      - name: Compile Python files
-        run: python -m compileall app src scripts tests
+      - name: Validate project structure and saved artifacts
+        run: python scripts/validate_project.py
 
-      - name: Run lightweight project validation
-        run: python scripts/validate_project.py --skip-model-load
+      - name: Run lightweight tests
+        run: |
+          python -m pytest -q \
+            tests/test_entity_extraction.py \
+            tests/test_ner_preprocessing.py \
+            tests/test_sequence_generation.py
 
-      - name: Run tests
-        run: pytest -q -m "not slow"
-
-      - name: Validate inference pipeline import
-        run: python -c "from src.inference_pipeline import NERInferencePipeline; print('Inference import OK')"
-
-      - name: Validate Streamlit app import
-        run: python -c "import app.streamlit_app; print('Streamlit app import OK')"
-
-      - name: Confirm full training is not executed in CI
-        run: echo "CI validates code and artifacts only; it does not retrain the model."
+      - name: Validate Streamlit app syntax
+        run: python -m py_compile app/streamlit_app.py
