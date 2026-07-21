@@ -59,17 +59,38 @@ def _apply_page_style() -> None:
         .hero {
             padding: 1.3rem 1.5rem;
             border-radius: 14px;
-            background: linear-gradient(135deg, #f3f8fd 0%, #ffffff 100%);
-            border: 1px solid #d9e6f2;
+            background: linear-gradient(135deg, #eef6ff 0%, #ffffff 100%);
+            border: 1px solid #bfd3e6;
             margin-bottom: 1rem;
+            color: #0f172a !important;
+        }
+        .hero h1,
+        .hero h2,
+        .hero h3,
+        .hero p,
+        .hero strong,
+        .hero span {
+            color: #0f172a !important;
         }
         .result-card {
             padding: 1rem 1.2rem;
             border-radius: 12px;
-            border: 1px solid #d9e6f2;
+            border: 1px solid #bfd3e6;
             background: #ffffff;
+            color: #0f172a !important;
         }
-        .small-note {font-size: 0.9rem; color: #52606d;}
+        .result-card h1,
+        .result-card h2,
+        .result-card h3,
+        .result-card div,
+        .result-card strong,
+        .result-card span {
+            color: #0f172a !important;
+        }
+        .small-note {
+            font-size: 0.9rem;
+            color: #475569 !important;
+        }
         </style>
         """,
         unsafe_allow_html=True,

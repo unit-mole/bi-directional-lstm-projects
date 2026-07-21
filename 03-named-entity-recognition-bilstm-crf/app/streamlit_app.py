@@ -159,7 +159,18 @@ The supplied notebook artifact is retained as a transparent **BiLSTM-softmax bas
         """
     )
     st.subheader("Loaded artifact")
-    st.json(pipeline.artifact_summary())
+    artifact_summary = pipeline.artifact_summary()
+    if artifact_summary.get("model_artifact_available"):
+        st.success(
+            "A deployable NER model artifact is available in the models directory."
+        )
+    else:
+        st.error(
+            "The NER model file is missing. Add "
+            "`models/legacy_bilstm_softmax_model.h5` to the repository. "
+            "The app can display documentation, but predictions require the model."
+        )
+    st.json(artifact_summary)
     st.subheader("Supported labels")
     st.code("O, B-PER, I-PER, B-ORG, I-ORG, B-LOC, I-LOC, B-MISC, I-MISC")
     st.subheader("Limitations")
