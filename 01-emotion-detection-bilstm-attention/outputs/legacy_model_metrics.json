@@ -1,0 +1,11 @@
+{
+  "artifact_status": "legacy_bilstm_without_attention",
+  "test_rows": 2,
+  "accuracy": 0.5,
+  "macro_f1": 0.2222222222,
+  "weighted_f1": 0.3333333333,
+  "validation_rows": 1,
+  "validation_accuracy": 0.0,
+  "attention_present": false,
+  "warning": "Metrics are based on a two-row test split and are not statistically meaningful."
+}

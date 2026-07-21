@@ -1,0 +1,14 @@
+example_id,token,predicted_tag
+1,Apple,B-ORG
+1,CEO,O
+1,Tim,B-PER
+1,Cook,I-PER
+1,visited,O
+1,India,B-LOC
+2,Barack,O
+2,Obama,O
+2,spoke,O
+2,at,O
+2,the,O
+2,United,B-LOC
+2,Nations,I-ORG

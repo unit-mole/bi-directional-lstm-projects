@@ -1,0 +1,31 @@
+code,comment
+"def add_numbers(a, b):
+    return a + b",returns the sum of two numbers
+"def calculate_average(values):
+    if not values:
+        return 0
+    return sum(values) / len(values)",calculates the average of a list of values
+"def keep_even_numbers(values):
+    return [value for value in values if value % 2 == 0]",returns only the even numbers from a sequence
+"def clamp(value, lower, upper):
+    return max(lower, min(value, upper))",limits a value to the provided lower and upper bounds
+"def is_palindrome(text):
+    cleaned = text.lower().replace(' ', '')
+    return cleaned == cleaned[::-1]",checks whether normalized text is a palindrome
+"def safe_divide(a, b):
+    if b == 0:
+        return None
+    return a / b",divides two values and returns none for a zero denominator
+"def unique_items(values):
+    return list(dict.fromkeys(values))",returns unique items while preserving their original order
+"def get_extension(path):
+    return path.rsplit('.', 1)[-1].lower()",extracts the lowercase file extension from a path
+"def count_words(text):
+    return len(text.split())",counts whitespace separated words in text
+"def fahrenheit_to_celsius(value):
+    return (value - 32) * 5 / 9",converts a temperature from fahrenheit to celsius
+"def flatten_once(nested):
+    return [item for group in nested for item in group]",flattens one level of a nested sequence
+"def file_exists(path):
+    from pathlib import Path
+    return Path(path).exists()",checks whether the supplied file path exists

@@ -1,0 +1,6 @@
+class,precision,recall,f1,support
+Cardiology,0.0,0.0,0.0,1
+Gastroenterology,0.0,0.0,0.0,0
+Neurology,0.0,0.0,0.0,1
+Orthopedic,0.3333333333333333,1.0,0.5,1
+Radiology,0.0,0.0,0.0,0

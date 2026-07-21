@@ -1,0 +1,4 @@
+{
+  "status": "not computed in the supplied notebook",
+  "next_step": "Run scripts/evaluate_model.py after corrected retraining."
+}

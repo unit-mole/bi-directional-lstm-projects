@@ -1,0 +1,4 @@
+question1,question2,true_label,pred_prob,pred_label,confidence,error_category
+How to improve English speaking skills?,How can I speak English fluently?,1,0.51161504,1,0.51161504,True Positive
+What are symptoms of heart attack?,What are the warning signs of a heart attack?,1,0.5110182,1,0.5110182,True Positive
+How can I learn python quickly?,What is the capital of France?,0,0.5111953,1,0.5111953,False Positive

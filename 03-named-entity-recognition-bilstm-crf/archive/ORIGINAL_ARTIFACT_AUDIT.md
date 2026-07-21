@@ -1,0 +1,1 @@
+The original notebook is preserved unchanged for traceability. It should not be used as the production code path. See the project-level `PROJECT_AUDIT.md` for the architecture inspection and migration decisions.

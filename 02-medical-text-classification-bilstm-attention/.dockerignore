@@ -1,0 +1,16 @@
+.git
+.github
+.venv
+venv
+__pycache__
+.pytest_cache
+.ipynb_checkpoints
+archive
+tests
+outputs/runtime
+outputs/uploads
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+Thumbs.db

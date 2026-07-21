@@ -1,0 +1,56 @@
+{
+  "project_name": "03-named-entity-recognition-bilstm-crf",
+  "task": "Named Entity Recognition / token-level sequence tagging",
+  "dataset": "CoNLL-2003 via eriktks/conll2003",
+  "tagging_scheme": "BIO",
+  "labels": [
+    "O",
+    "B-PER",
+    "I-PER",
+    "B-ORG",
+    "I-ORG",
+    "B-LOC",
+    "I-LOC",
+    "B-MISC",
+    "I-MISC"
+  ],
+  "entity_types": [
+    "PER",
+    "ORG",
+    "LOC",
+    "MISC"
+  ],
+  "vocab_size": 21011,
+  "num_tags": 9,
+  "max_sequence_length": 124,
+  "pad_token": "<PAD>",
+  "pad_token_id": 0,
+  "unknown_token": "<UNK>",
+  "unknown_token_id": 1,
+  "lowercase_tokens": true,
+  "embedding_dimension": 64,
+  "bilstm_units_per_direction": 64,
+  "dropout_rate": 0.3,
+  "dense_units": 32,
+  "legacy_artifact": {
+    "filename": "legacy_bilstm_softmax_model.h5",
+    "format": "HDF5 Keras model",
+    "keras_version_recorded_in_file": "3.13.2",
+    "decoder": "independent token softmax",
+    "loss": "categorical_crossentropy",
+    "is_true_crf": false,
+    "sha256": "c892589971835707c84f5afae12d8e4fc7717f25c4d3a5a1b91a48b2d55786d9",
+    "test_seqeval_accuracy": 0.9305,
+    "test_entity_f1": 0.6572,
+    "micro_precision": 0.69,
+    "micro_recall": 0.63,
+    "notes": "Copied from the user-provided notebook artifacts. The portfolio app applies BIO-constrained Viterbi decoding as an optional post-processing layer, but this artifact itself was not trained with CRF loss."
+  },
+  "true_crf_artifact": {
+    "weights_filename": "ner_bilstm_crf.weights.h5",
+    "status": "generated after running scripts/train_model.py",
+    "implementation": "Pure TensorFlow linear-chain CRF loss and Viterbi decoding; no tensorflow-addons dependency"
+  },
+  "default_inference_strategy": "Prefer true CRF weights when present; otherwise load legacy model and use BIO-constrained Viterbi decoding",
+  "responsible_use": "Educational and portfolio demonstration only. Do not submit sensitive or confidential text."
+}

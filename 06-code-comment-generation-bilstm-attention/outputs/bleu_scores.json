@@ -1,0 +1,9 @@
+{
+  "bleu": 0.0,
+  "unigram_precision": 0.21218961625282168,
+  "bigram_precision": 0.01653944020356234,
+  "trigram_precision": 0.0,
+  "fourgram_precision": 0.0,
+  "brevity_penalty": 0.08079813831295274,
+  "length_ratio": 0.284430176565008
+}

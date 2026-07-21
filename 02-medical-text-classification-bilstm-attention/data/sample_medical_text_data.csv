@@ -1,0 +1,11 @@
+medical_specialty,transcription
+Cardiology,Patient presents with chest pain and shortness of breath. ECG changes suggest ischemic heart disease.
+Cardiology,History of hypertension and palpitations. Echocardiogram recommended for further evaluation.
+Neurology,Patient reports recurrent headaches and dizziness with possible migraine symptoms.
+Neurology,Neurological examination indicates weakness in the right upper limb and sensory deficits.
+Orthopedic,Knee pain worsened with movement. MRI suggests meniscal injury and ligament strain.
+Orthopedic,Fracture follow-up note showing stable alignment and improving range of motion.
+Radiology,Chest x ray shows mild bilateral infiltrates with no pleural effusion.
+Radiology,CT scan demonstrates no acute intracranial hemorrhage and stable ventricular size.
+Gastroenterology,"Patient complains of abdominal pain, reflux symptoms, and nausea after meals."
+Gastroenterology,Endoscopy findings show gastritis and mild esophageal inflammation.

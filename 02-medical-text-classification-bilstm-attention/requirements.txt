@@ -1,0 +1,8 @@
+# Runtime dependencies (tested target: Python 3.11)
+streamlit==1.59.2
+tensorflow-cpu==2.21.0
+pandas>=2.2,<3.0
+numpy>=1.26,<2.4
+scikit-learn>=1.5,<1.9
+matplotlib>=3.8,<4.0
+h5py>=3.11,<4.0

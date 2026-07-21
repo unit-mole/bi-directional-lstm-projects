@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-07-20",
+  "static_compile": "passed",
+  "artifact_metadata_validation": "passed",
+  "pytest_non_model": {
+    "passed": 14,
+    "failed": 0,
+    "deselected": 1
+  },
+  "tensorflow_model_load_in_builder_environment": "not_run",
+  "reason": "TensorFlow is not installed in the artifact-building container; CI installs the pinned runtime dependency and includes a model-loading test.",
+  "integrity_notes": [
+    "The .keras archive contains metadata.json, config.json, and model.weights.h5.",
+    "Label mapping and model metadata contain the same five classes.",
+    "Tokenizer JSON uses the original nested string format and is supported by the loader."
+  ]
+}

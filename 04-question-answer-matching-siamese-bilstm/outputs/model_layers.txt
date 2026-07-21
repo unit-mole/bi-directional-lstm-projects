@@ -1,0 +1,11 @@
+InputLayer: q1_input
+InputLayer: q2_input
+Functional: shared_encoder
+Lambda: absolute_difference
+Lambda: elementwise_product
+Concatenate: merged_features
+Dense: dense_1
+Dropout: dropout_1
+Dense: dense_2
+Dropout: dropout_2
+Dense: duplicate_probability

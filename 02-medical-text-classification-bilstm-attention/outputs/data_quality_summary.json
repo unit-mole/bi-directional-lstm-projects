@@ -1,0 +1,12 @@
+{
+  "original_rows": 10,
+  "final_rows": 10,
+  "missing_text_rows": 0,
+  "missing_label_rows": 0,
+  "empty_text_rows": 0,
+  "duplicate_text_rows": 0,
+  "removed_rare_class_rows": 0,
+  "class_count": 5,
+  "text_column": "transcription",
+  "label_column": "medical_specialty"
+}

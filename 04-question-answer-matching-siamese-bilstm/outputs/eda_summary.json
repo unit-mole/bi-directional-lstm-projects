@@ -1,0 +1,21 @@
+{
+  "rows": 15,
+  "columns": [
+    "question1",
+    "question2",
+    "is_duplicate"
+  ],
+  "missing_values": {
+    "question1": 0,
+    "question2": 0,
+    "is_duplicate": 0
+  },
+  "label_counts": {
+    "1": 10,
+    "0": 5
+  },
+  "duplicate_rows": 0,
+  "question1_average_words": 6.0,
+  "question2_average_words": 6.8,
+  "dataset_caveat": "Synthetic 15-row demonstration sample, not the full Quora Question Pairs dataset."
+}

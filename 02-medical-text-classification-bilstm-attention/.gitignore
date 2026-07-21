@@ -1,0 +1,32 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# Environments and secrets
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Training/runtime artifacts
+models/checkpoints/
+models/best_model.keras
+outputs/runtime/
+outputs/uploads/
+logs/
+
+# Full/private data should never be committed
+data/raw/
+data/private/
+data/full/
+data/*.parquet
+data/*.zip
+data/*.gz
+
+# Keep documented safe sample
+!data/sample_medical_text_data.csv
+!data/README_data.md

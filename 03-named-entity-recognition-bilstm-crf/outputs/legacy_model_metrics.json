@@ -1,0 +1,10 @@
+{
+  "artifact": "legacy_bilstm_softmax_model.h5",
+  "is_true_crf": false,
+  "seqeval_accuracy": 0.9305,
+  "entity_precision_micro": 0.69,
+  "entity_recall_micro": 0.63,
+  "entity_f1_micro": 0.6572,
+  "support_entities": 5648,
+  "source": "Recorded outputs in the supplied notebook"
+}

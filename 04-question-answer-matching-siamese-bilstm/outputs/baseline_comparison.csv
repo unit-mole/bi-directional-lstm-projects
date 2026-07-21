@@ -1,0 +1,3 @@
+model,accuracy,precision,recall,f1_score,roc_auc,status
+TF-IDF cosine baseline,Run on a larger held-out set,,,,,Implemented in src/baseline_model.py
+Siamese BiLSTM,0.6667*,0.6667*,1.0000*,0.8000*,0.5000*,*Only 3 test rows; not benchmark evidence

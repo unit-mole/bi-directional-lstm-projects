@@ -1,0 +1,13 @@
+{
+  "checkpoint": "supplied legacy BiLSTM encoder-decoder",
+  "attention_present": false,
+  "evaluation_examples": 100,
+  "bleu": 0.0,
+  "exact_match": 0.0,
+  "average_token_overlap": 0.08775290362851852,
+  "mean_prediction_length": 8.86,
+  "mean_reference_length": 31.15,
+  "final_validation_loss": 4.054307,
+  "final_validation_accuracy_unmasked": 0.422529,
+  "interpretation": "The checkpoint is a weak baseline. Accuracy is padding-inflated and BLEU is zero; retraining with leakage control, masking, attention, and more data is required."
+}

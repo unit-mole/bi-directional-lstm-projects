@@ -1,0 +1,6 @@
+code,reference_comment,generator,generated_comment,status
+"def add(a, b): return a + b",returns the sum of two values,supplied legacy checkpoint - greedy,return the the the the the the the the the the the the the the the the the the the the the the the the the the the the,actual notebook output; degenerate repetition
+"def add(a, b): return a + b",returns the sum of two values,supplied legacy checkpoint - beam,return a a the the the the the the the the the the given,actual notebook output; weak
+"def multiply(x, y): return x * y",returns the product of two values,supplied legacy checkpoint - beam,return a the the the the the the the the the the the the the the the the the the the the the the the the the the the,actual notebook output; degenerate repetition
+"def calculate_average(values):
+    return sum(values) / len(values)",calculates the average of a sequence,transparent identifier baseline,Returns the quotient computed by calculate average.,"rule-based comparison, not neural output"

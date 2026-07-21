@@ -1,0 +1,23 @@
+[
+  {
+    "text": "Apple CEO Tim Cook visited India",
+    "entities": [
+      {
+        "entity_text": "Apple",
+        "entity_type": "ORG"
+      },
+      {
+        "entity_text": "Tim Cook",
+        "entity_type": "PER"
+      },
+      {
+        "entity_text": "India",
+        "entity_type": "LOC"
+      }
+    ]
+  },
+  {
+    "text": "Barack Obama spoke at the United Nations",
+    "note": "Original notebook showed clear errors: Barack/Obama were missed and United Nations received inconsistent LOC/ORG tags."
+  }
+]

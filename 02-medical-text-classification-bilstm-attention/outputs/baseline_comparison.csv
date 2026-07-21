@@ -1,0 +1,3 @@
+model,evaluation_protocol,accuracy,macro_f1,weighted_f1,comparability_note
+TF-IDF + Logistic Regression,2-fold stratified cross-validation,0.1,0.1,0.1,Cross-validation on all 10 rows; not directly comparable to the BiLSTM holdout.
+BiLSTM + Attention (supplied artifact),3-row holdout from original notebook,0.3333333333333333,0.1,0.16666666666666666,Tiny holdout; diagnostic only.

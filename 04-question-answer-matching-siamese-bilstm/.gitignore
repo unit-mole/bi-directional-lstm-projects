@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.streamlit/secrets.toml
+logs/
+checkpoints/
+outputs/tmp/
+data/raw/
+data/full_*.csv
+*.h5
+# Keep the curated .keras demo model committed for deployment.
+!models/qa_siamese_bilstm_model.keras

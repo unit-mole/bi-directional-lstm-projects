@@ -1,0 +1,58 @@
+{
+  "project_name": "02-medical-text-classification-bilstm-attention",
+  "model_type": "Bidirectional LSTM with temporal attention",
+  "class_labels": [
+    "Cardiology",
+    "Gastroenterology",
+    "Neurology",
+    "Orthopedic",
+    "Radiology"
+  ],
+  "number_of_classes": 5,
+  "text_column": "transcription",
+  "target_column": "medical_specialty",
+  "max_vocabulary_size": 30000,
+  "effective_vocabulary_size": 91,
+  "max_sequence_length": 300,
+  "embedding_dimension": 128,
+  "bilstm_units": 64,
+  "dense_units": 128,
+  "dropout_rate": 0.3,
+  "preprocessing_mode": "legacy",
+  "training_configuration": {
+    "random_seed": 42,
+    "batch_size": 32,
+    "requested_epochs": 5,
+    "completed_epochs": 3,
+    "early_stopping_patience": 2,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "loss": "categorical_crossentropy",
+    "class_weighting": "balanced; all weights were 1.0 on the sample split"
+  },
+  "split_sizes": {
+    "train": 5,
+    "validation": 2,
+    "test": 3
+  },
+  "evaluation_metrics": {
+    "test_loss": 1.5904,
+    "accuracy": 0.3333333333333333,
+    "macro_precision": 0.06666666666666667,
+    "macro_recall": 0.2,
+    "macro_f1": 0.1,
+    "weighted_precision": 0.1111111111111111,
+    "weighted_recall": 0.3333333333333333,
+    "weighted_f1": 0.16666666666666666
+  },
+  "artifact_status": "supplied demonstration artifact trained on 10 synthetic rows",
+  "performance_claim_allowed": false,
+  "limitations": [
+    "Only 10 total rows and 2 rows per class.",
+    "The holdout contains only 3 rows.",
+    "The supplied model predicted Orthopedic for all 3 holdout rows.",
+    "Confidence values were near-uniform at approximately 20.6%.",
+    "Metrics are pipeline diagnostics, not statistically meaningful benchmarks."
+  ],
+  "medical_disclaimer": "Educational portfolio model only; not a medical diagnostic tool."
+}

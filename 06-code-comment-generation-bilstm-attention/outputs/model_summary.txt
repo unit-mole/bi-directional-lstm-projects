@@ -1,0 +1,10 @@
+Supplied checkpoint: code_comment_bilstm_seq2seq
+Encoder input: 180 tokens
+Encoder embedding: 19,608 x 128
+Encoder: Bidirectional LSTM, 128 units per direction, final states only
+Decoder input: 29 tokens
+Decoder embedding: 7,487 x 128
+Decoder: LSTM, 256 units
+Output: Dense softmax over 7,487 target tokens
+Parameters: 6,049,727
+Attention layer: NOT PRESENT

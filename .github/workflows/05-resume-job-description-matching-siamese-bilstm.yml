@@ -1,0 +1,50 @@
+name: 05 Resume Job Description Matching Siamese BiLSTM CI
+
+on:
+  push:
+    paths:
+      - "05-resume-job-description-matching-siamese-bilstm/**"
+      - ".github/workflows/05-resume-job-description-matching-siamese-bilstm.yml"
+  pull_request:
+    paths:
+      - "05-resume-job-description-matching-siamese-bilstm/**"
+      - ".github/workflows/05-resume-job-description-matching-siamese-bilstm.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 05-resume-job-description-matching-siamese-bilstm
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: 05-resume-job-description-matching-siamese-bilstm/requirements-dev.txt
+
+      - name: Install lightweight CI dependencies
+        run: python -m pip install --upgrade pip && pip install -r requirements-dev.txt
+
+      - name: Compile Python modules
+        run: python -m compileall app src scripts tests
+
+      - name: Run tests
+        run: pytest -q
+
+      - name: Validate inference import
+        run: python -c "from src.inference_pipeline import ResumeJobMatcher; print('Inference import OK')"
+
+      - name: Validate Streamlit source
+        run: python -c "from pathlib import Path; p=Path('app/streamlit_app.py'); compile(p.read_text(encoding='utf-8'), str(p), 'exec'); print('Streamlit source OK')"
+
+      - name: Validate required artifacts
+        run: python scripts/validate_artifacts.py --allow-missing-tensorflow

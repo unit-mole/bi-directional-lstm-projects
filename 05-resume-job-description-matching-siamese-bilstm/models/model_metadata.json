@@ -1,0 +1,88 @@
+{
+  "project_name": "05-resume-job-description-matching-siamese-bilstm",
+  "model_type": "Shared-weight Siamese Bidirectional LSTM",
+  "artifact_format": "Keras v3 .keras",
+  "architecture": {
+    "shared_encoder": true,
+    "embedding_dimension": 32,
+    "bilstm_units": 12,
+    "projection_dimension": 32,
+    "comparison_features": [
+      "resume vector",
+      "job vector",
+      "absolute difference",
+      "element-wise product",
+      "cosine similarity"
+    ]
+  },
+  "tokenization": {
+    "document_count": 192,
+    "observed_vocabulary_size": 167,
+    "effective_vocabulary_size": 167,
+    "oov_token": "<OOV>",
+    "max_sequence_length": 48,
+    "shared_tokenizer": true,
+    "padding": "post",
+    "truncation": "post"
+  },
+  "prediction_threshold": 0.4650000000000001,
+  "label_mapping": {
+    "0": "No Match",
+    "1": "Match"
+  },
+  "score_bands": {
+    "weak": [
+      0.0,
+      0.39
+    ],
+    "moderate": [
+      0.4,
+      0.69
+    ],
+    "strong": [
+      0.7,
+      1.0
+    ]
+  },
+  "training": {
+    "seed": 42,
+    "epochs_completed": 49,
+    "batch_style": "full-batch demonstration training",
+    "training_rows": 96,
+    "validation_rows": 16,
+    "test_rows": 16,
+    "artifact_bootstrap_note": "The included backend-neutral Keras artifact was initialized with arrays trained in the mathematically equivalent PyTorch implementation because TensorFlow was unavailable in the artifact-generation environment. scripts/train_model.py remains the standard TensorFlow/Keras training path.",
+    "data_note": "Small synthetic demonstration pairs derived from the supplied eight-row example resume dataset. Results are not production evidence."
+  },
+  "test_metrics": {
+    "threshold": 0.4650000000000001,
+    "accuracy": 0.875,
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1_score": 0.8888888888888888,
+    "confusion_matrix": [
+      [
+        6,
+        2
+      ],
+      [
+        0,
+        8
+      ]
+    ],
+    "roc_auc": 0.984375,
+    "pr_auc": 0.9861111111111112
+  },
+  "ranking_metrics": {
+    "recall_at_3": 0.2857142857142857,
+    "mean_reciprocal_rank": 0.3454081632653061,
+    "ndcg": 0.4977300194618565
+  },
+  "keras_transfer_max_probability_difference": 8.940696716308594e-08,
+  "responsible_use": "Educational portfolio demonstration only. Not a hiring decision system.",
+  "blend_weights": {
+    "neural": 0.35,
+    "tfidf": 0.35,
+    "skill_overlap": 0.3
+  }
+}

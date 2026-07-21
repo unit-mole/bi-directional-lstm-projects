@@ -1,0 +1,57 @@
+name: 04 Question Answer Matching Siamese BiLSTM CI
+
+on:
+  push:
+    paths:
+      - "04-question-answer-matching-siamese-bilstm/**"
+      - ".github/workflows/04-question-answer-matching-siamese-bilstm.yml"
+  pull_request:
+    paths:
+      - "04-question-answer-matching-siamese-bilstm/**"
+      - ".github/workflows/04-question-answer-matching-siamese-bilstm.yml"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    defaults:
+      run:
+        working-directory: 04-question-answer-matching-siamese-bilstm
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            04-question-answer-matching-siamese-bilstm/requirements.txt
+            04-question-answer-matching-siamese-bilstm/requirements-dev.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install -r requirements-dev.txt
+
+      - name: Validate Python syntax
+        run: python -m compileall app src scripts tests
+
+      - name: Run unit tests
+        run: pytest -q
+
+      - name: Validate model package metadata
+        run: python scripts/validate_artifacts.py --metadata-only
+
+      - name: Validate inference pipeline import
+        run: python -c "from src.inference_pipeline import QAMatcher; print('Inference import OK')"
+
+      - name: Validate Streamlit app import
+        run: python -c "import app.streamlit_app; print('Streamlit import OK')"
+
+      # The workflow intentionally does not retrain or benchmark the neural network.

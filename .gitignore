@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+**/.streamlit/secrets.toml
+
+# Data and generated artifacts
+**/data/raw/**
+**/data/processed/**
+**/outputs/logs/**
+**/archive/private_review_only/**
+
+# TensorFlow checkpoints
+**/checkpoints/**
+*.h5
+*.ckpt*
+
+# Keep portfolio-ready artifacts and .keras files intentionally committed via Git LFS.

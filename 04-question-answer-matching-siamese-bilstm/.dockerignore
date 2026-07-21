@@ -1,0 +1,10 @@
+.git
+.github
+__pycache__
+.pytest_cache
+.venv
+archive
+notebooks
+outputs
+images
+*.ipynb_checkpoints

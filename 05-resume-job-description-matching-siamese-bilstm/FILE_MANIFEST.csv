@@ -1,0 +1,83 @@
+path,file_type,size_bytes,purpose
+.dockerignore,file,114,Project artifact or configuration file
+.gitignore,file,194,Project artifact or configuration file
+.streamlit/config.toml,toml,247,Streamlit configuration
+Dockerfile,file,623,Project artifact or configuration file
+IMPROVEMENTS.md,md,2303,Documentation
+LICENSE,file,1071,Project artifact or configuration file
+MODEL_CARD.md,md,1276,Documentation
+MONOREPO_INTEGRATION.md,md,716,Documentation
+PROJECT_AUDIT.md,md,1366,Documentation
+README.md,md,14243,Documentation
+README_HOSTING.md,md,1980,Documentation
+__init__.py,py,59,Python source or executable script
+app/__init__.py,py,0,Python source or executable script
+app/streamlit_app.py,py,9161,Python source or executable script
+archive/ORIGINAL_PROJECT_REVIEW.md,md,779,Documentation
+archive/legacy_outputs/resume_jd_prediction_analysis.csv,csv,1780,"Dataset, metric, prediction, or manifest table"
+archive/legacy_outputs/resume_jd_topk_eval.csv,csv,134,"Dataset, metric, prediction, or manifest table"
+archive/legacy_resume_jd_bilstm_model.keras,keras,4088933,Saved Keras model artifact
+archive/legacy_tokenizer_config.json,json,11170,Serialized tokenizer or model metadata
+archive/original_notebook.ipynb,ipynb,460231,Jupyter notebook
+data/README_data.md,md,1542,Documentation
+data/processed/resume_job_pairs.csv,csv,44091,"Dataset, metric, prediction, or manifest table"
+data/raw/resume_dataset.csv,csv,981,"Dataset, metric, prediction, or manifest table"
+data/sample/sample_job_descriptions.csv,csv,12659,"Dataset, metric, prediction, or manifest table"
+data/sample/sample_resume_job_pairs.csv,csv,1221,"Dataset, metric, prediction, or manifest table"
+data/sample/sample_resumes.csv,csv,1032,"Dataset, metric, prediction, or manifest table"
+images/README.md,md,618,Documentation
+images/architecture.png,png,83328,Generated project visualization
+models/model_metadata.json,json,2402,Serialized tokenizer or model metadata
+models/resume_job_siamese_bilstm_model.keras,keras,196277,Saved Keras model artifact
+models/tokenizer.json,json,14367,Serialized tokenizer or model metadata
+notebooks/original_resume_job_description_matching.ipynb,ipynb,460231,Jupyter notebook
+notebooks/resume_job_description_matching_siamese_bilstm.ipynb,ipynb,3584,Jupyter notebook
+outputs/fairness_and_limitations_note.md,md,864,Documentation
+outputs/figures/confusion_matrix.png,png,29706,Generated project visualization
+outputs/figures/job_description_length_distribution.png,png,23757,Generated project visualization
+outputs/figures/label_distribution.png,png,22011,Generated project visualization
+outputs/figures/precision_recall_curve.png,png,37639,Generated project visualization
+outputs/figures/resume_length_distribution.png,png,24709,Generated project visualization
+outputs/figures/roc_curve.png,png,39716,Generated project visualization
+outputs/figures/similarity_score_distribution.png,png,35665,Generated project visualization
+outputs/figures/training_accuracy.png,png,52999,Generated project visualization
+outputs/figures/training_loss.png,png,60750,Generated project visualization
+outputs/metrics/baseline_comparison.csv,csv,345,"Dataset, metric, prediction, or manifest table"
+outputs/metrics/model_metrics.json,json,272,Serialized tokenizer or model metadata
+outputs/metrics/ranking_metrics.json,json,115,Serialized tokenizer or model metadata
+outputs/metrics/training_history.csv,csv,2650,"Dataset, metric, prediction, or manifest table"
+outputs/predictions/ranking_examples.csv,csv,3101,"Dataset, metric, prediction, or manifest table"
+outputs/predictions/sample_predictions.csv,csv,6198,"Dataset, metric, prediction, or manifest table"
+requirements-dev.txt,txt,278,Text configuration
+requirements.txt,txt,209,Text configuration
+run_local.bat,bat,221,Windows launcher
+run_local.sh,sh,210,Shell launcher
+scripts/bootstrap_demo_artifact.py,py,16213,Python source or executable script
+scripts/evaluate_model.py,py,910,Python source or executable script
+scripts/generate_figures.py,py,1275,Python source or executable script
+scripts/run_streamlit.py,py,376,Python source or executable script
+scripts/train_model.py,py,1658,Python source or executable script
+scripts/validate_artifacts.py,py,1405,Python source or executable script
+src/__init__.py,py,139,Python source or executable script
+src/config.py,py,1495,Python source or executable script
+src/data_preprocessing.py,py,3409,Python source or executable script
+src/inference_pipeline.py,py,211,Python source or executable script
+src/job_description_preprocessing.py,py,329,Python source or executable script
+src/matching_pipeline.py,py,6555,Python source or executable script
+src/model_evaluation.py,py,4382,Python source or executable script
+src/model_training.py,py,7464,Python source or executable script
+src/pair_generation.py,py,3041,Python source or executable script
+src/ranking_pipeline.py,py,1235,Python source or executable script
+src/resume_preprocessing.py,py,366,Python source or executable script
+src/sequence_generation.py,py,1054,Python source or executable script
+src/siamese_model.py,py,3998,Python source or executable script
+src/skills.py,py,1758,Python source or executable script
+src/text_preprocessing.py,py,3139,Python source or executable script
+src/tokenizer_utils.py,py,3146,Python source or executable script
+src/visualization.py,py,4722,Python source or executable script
+tests/__init__.py,py,0,Python source or executable script
+tests/test_inference_pipeline.py,py,764,Python source or executable script
+tests/test_pair_generation.py,py,740,Python source or executable script
+tests/test_sequence_generation.py,py,559,Python source or executable script
+tests/test_text_preprocessing.py,py,797,Python source or executable script
+train_model.py,py,135,Python source or executable script

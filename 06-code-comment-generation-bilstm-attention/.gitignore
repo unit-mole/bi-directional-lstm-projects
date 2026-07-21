@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.streamlit/secrets.toml
+outputs/logs/*
+outputs/checkpoints/*
+data/raw/*
+data/processed/*
+archive/private_review_only/*
+!archive/private_review_only/README.md
+models/*.tmp
+
+archive/original_submission/*
+!archive/original_submission/README.md

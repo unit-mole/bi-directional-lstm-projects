@@ -1,0 +1,10 @@
+# Lightweight dependencies used by GitHub Actions.
+# TensorFlow is intentionally omitted so CI does not download or train the model.
+pandas>=2.2,<3.0
+numpy>=1.26,<3.0
+scikit-learn>=1.4,<2.0
+matplotlib>=3.8,<4.0
+plotly>=5.24,<7.0
+joblib>=1.4,<2.0
+pytest>=8.0,<9.0
+ruff>=0.6,<1.0

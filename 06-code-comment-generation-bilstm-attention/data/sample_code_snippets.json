@@ -1,0 +1,74 @@
+[
+  {
+    "name": "sample_1",
+    "language": "python",
+    "code": "def add_numbers(a, b):\n    return a + b",
+    "reference_comment": "returns the sum of two numbers"
+  },
+  {
+    "name": "sample_2",
+    "language": "python",
+    "code": "def calculate_average(values):\n    if not values:\n        return 0\n    return sum(values) / len(values)",
+    "reference_comment": "calculates the average of a list of values"
+  },
+  {
+    "name": "sample_3",
+    "language": "python",
+    "code": "def keep_even_numbers(values):\n    return [value for value in values if value % 2 == 0]",
+    "reference_comment": "returns only the even numbers from a sequence"
+  },
+  {
+    "name": "sample_4",
+    "language": "python",
+    "code": "def clamp(value, lower, upper):\n    return max(lower, min(value, upper))",
+    "reference_comment": "limits a value to the provided lower and upper bounds"
+  },
+  {
+    "name": "sample_5",
+    "language": "python",
+    "code": "def is_palindrome(text):\n    cleaned = text.lower().replace(' ', '')\n    return cleaned == cleaned[::-1]",
+    "reference_comment": "checks whether normalized text is a palindrome"
+  },
+  {
+    "name": "sample_6",
+    "language": "python",
+    "code": "def safe_divide(a, b):\n    if b == 0:\n        return None\n    return a / b",
+    "reference_comment": "divides two values and returns none for a zero denominator"
+  },
+  {
+    "name": "sample_7",
+    "language": "python",
+    "code": "def unique_items(values):\n    return list(dict.fromkeys(values))",
+    "reference_comment": "returns unique items while preserving their original order"
+  },
+  {
+    "name": "sample_8",
+    "language": "python",
+    "code": "def get_extension(path):\n    return path.rsplit('.', 1)[-1].lower()",
+    "reference_comment": "extracts the lowercase file extension from a path"
+  },
+  {
+    "name": "sample_9",
+    "language": "python",
+    "code": "def count_words(text):\n    return len(text.split())",
+    "reference_comment": "counts whitespace separated words in text"
+  },
+  {
+    "name": "sample_10",
+    "language": "python",
+    "code": "def fahrenheit_to_celsius(value):\n    return (value - 32) * 5 / 9",
+    "reference_comment": "converts a temperature from fahrenheit to celsius"
+  },
+  {
+    "name": "sample_11",
+    "language": "python",
+    "code": "def flatten_once(nested):\n    return [item for group in nested for item in group]",
+    "reference_comment": "flattens one level of a nested sequence"
+  },
+  {
+    "name": "sample_12",
+    "language": "python",
+    "code": "def file_exists(path):\n    from pathlib import Path\n    return Path(path).exists()",
+    "reference_comment": "checks whether the supplied file path exists"
+  }
+]

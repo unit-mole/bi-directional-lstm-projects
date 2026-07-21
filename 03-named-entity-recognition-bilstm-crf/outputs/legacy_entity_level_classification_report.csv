@@ -1,0 +1,5 @@
+entity_type,precision,recall,f1_score,support
+LOC,0.66,0.7,0.68,1668
+MISC,0.67,0.67,0.67,702
+ORG,0.69,0.59,0.63,1661
+PER,0.74,0.58,0.65,1617

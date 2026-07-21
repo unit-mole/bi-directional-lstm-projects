@@ -1,0 +1,2 @@
+model_name,evaluation_protocol,accuracy,macro_f1,weighted_f1
+TF-IDF + Logistic Regression,2-fold stratified cross-validation,0.1,0.1,0.1

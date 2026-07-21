@@ -1,0 +1,7 @@
+question,rank,candidate,match_probability,predicted_label,caveat
+How can I learn Python quickly?,1,What is the fastest way to learn Python?,0.5125194191932678,Match,Scores come from the undertrained 15-row demonstration model.
+How can I learn Python quickly?,2,What is the capital of France?,0.5111953020095825,Match,Scores come from the undertrained 15-row demonstration model.
+How can I learn Python quickly?,3,How do I cook pasta at home?,0.5106940269470215,Match,Scores come from the undertrained 15-row demonstration model.
+What is deep learning?,1,How can I improve spoken English?,0.5117346048355103,Match,Scores come from the undertrained 15-row demonstration model.
+What is deep learning?,2,Can you explain deep learning?,0.5111587047576904,Match,Scores come from the undertrained 15-row demonstration model.
+What is deep learning?,3,What is blockchain technology?,0.5105645656585693,Match,Scores come from the undertrained 15-row demonstration model.

@@ -1,0 +1,68 @@
+{
+  "project_name": "04-question-answer-matching-siamese-bilstm",
+  "actual_training_task": "duplicate question detection / semantic question-pair classification",
+  "portfolio_framing": "Siamese BiLSTM semantic pair matching; true question-answer relevance requires retraining on QA-labelled data",
+  "model_file": "qa_siamese_bilstm_model.keras",
+  "tokenizer_file": "tokenizer.json",
+  "model_name": "quora_duplicate_bilstm_siamese",
+  "model_format": "Keras v3 archive",
+  "max_vocabulary_size": 40000,
+  "effective_vocabulary_size": 81,
+  "max_sequence_length": 40,
+  "question_max_length": 40,
+  "candidate_max_length": 40,
+  "embedding_dimension": 128,
+  "bilstm_units_per_direction": 64,
+  "encoder_output_dimension": 128,
+  "dropout_rate": 0.3,
+  "prediction_threshold": 0.5,
+  "input_columns": {
+    "text_a": "question1",
+    "text_b": "question2",
+    "label": "is_duplicate"
+  },
+  "label_mapping": {
+    "0": "No Match",
+    "1": "Match"
+  },
+  "similarity_features": [
+    "question_vector",
+    "candidate_vector",
+    "absolute_difference",
+    "elementwise_product"
+  ],
+  "training_rows": 10,
+  "validation_rows": 2,
+  "test_rows": 3,
+  "source_dataset_rows": 15,
+  "source_dataset_balance": {
+    "match": 10,
+    "no_match": 5
+  },
+  "evaluation_metrics": {
+    "artifact_status": "demonstration_only",
+    "evaluation_scope": "three-row held-out sample from the attached 15-row synthetic dataset",
+    "threshold": 0.5,
+    "test_rows": 3,
+    "accuracy": 0.6666666666666666,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1_score": 0.8,
+    "macro_f1": 0.4,
+    "weighted_f1": 0.5333333333333333,
+    "roc_auc": 0.5,
+    "pr_auc": 0.8333333333333333,
+    "confusion_matrix": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "important_caveat": "These figures are not portfolio-grade evidence of generalization because the dataset contains only 15 synthetic question pairs and the test set contains only 3 rows. Probabilities are tightly clustered near 0.51, showing that the supplied model is undertrained."
+  },
+  "responsible_use": "Educational demonstration only. The model estimates semantic similarity and does not verify factual correctness, safety, completeness, or currency."
+}

@@ -1,0 +1,4 @@
+input_text,true_label,predicted_label,confidence,is_correct
+Patient reports recurrent headaches and dizziness with possible migraine symptoms.,Neurology,Orthopedic,0.20586449,0
+Patient presents with chest pain and shortness of breath. ECG changes suggest ischemic heart disease.,Cardiology,Orthopedic,0.20577344,0
+Knee pain worsened with movement. MRI suggests meniscal injury and ligament strain.,Orthopedic,Orthopedic,0.20577918,1

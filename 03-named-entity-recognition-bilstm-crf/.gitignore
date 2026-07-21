@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+.env
+.streamlit/secrets.toml
+data/raw/
+data/processed/
+outputs/tmp/
+outputs/checkpoints/
+models/*.ckpt
+*.log
