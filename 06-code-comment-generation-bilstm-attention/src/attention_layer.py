@@ -4,7 +4,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 
-@keras.saving.register_keras_serializable(package="CodeCommentGeneration")
+@keras.utils.register_keras_serializable(package="CodeCommentGeneration")
 class BahdanauAttention(keras.layers.Layer):
     """Additive attention over all encoder time steps."""
 
@@ -38,7 +38,7 @@ class BahdanauAttention(keras.layers.Layer):
         return {**super().get_config(), "units": self.units}
 
 
-@keras.saving.register_keras_serializable(package="CodeCommentGeneration")
+@keras.utils.register_keras_serializable(package="CodeCommentGeneration")
 def masked_sparse_categorical_crossentropy(y_true, y_pred):
     y_true = tf.cast(y_true, tf.int32)
     per_token = keras.losses.sparse_categorical_crossentropy(y_true, y_pred)
@@ -46,7 +46,7 @@ def masked_sparse_categorical_crossentropy(y_true, y_pred):
     return tf.math.divide_no_nan(tf.reduce_sum(per_token * mask), tf.reduce_sum(mask))
 
 
-@keras.saving.register_keras_serializable(package="CodeCommentGeneration")
+@keras.utils.register_keras_serializable(package="CodeCommentGeneration")
 def masked_token_accuracy(y_true, y_pred):
     y_true = tf.cast(y_true, tf.int32)
     predicted = tf.argmax(y_pred, axis=-1, output_type=tf.int32)
