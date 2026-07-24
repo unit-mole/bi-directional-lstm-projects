@@ -1,0 +1,1081 @@
+text,emotion,predicted_emotion,confidence
+"After thinking about it, I am enraged because of the rude response. The feeling is difficult to ignore.",anger,anger,0.9999995231628418
+"After thinking about it, It is hard to hide how thrilled I feel about meeting my friends. The feeling is difficult to ignore.",joy,joy,0.9999992847442627
+"I have to admit, I am unexpectedly amazed because of the unbelievable result. That is my honest reaction.",surprise,surprise,1.0
+"I have to admit, I feel quite adored about our time together. That is my honest reaction.",love,love,0.9999991655349731
+"After thinking about it, It is hard to hide how in disbelief I feel about the surprise visitor. I can feel it strongly.",surprise,surprise,0.9999990463256836
+"At this moment, Right now I am very affectionate.",love,love,0.9997920393943787
+"To be honest, Honestly, speaking in public makes me feel worried. It has stayed on my mind.",fear,fear,0.9999991655349731
+"At this moment, I keep feeling miserable whenever I remember the difficult goodbye. I can feel it strongly.",sadness,sadness,0.9999997615814209
+"At this moment, I keep feeling unexpectedly amazed whenever I remember the surprise visitor. It has stayed on my mind.",surprise,surprise,0.9999998807907104
+"After thinking about it, I feel genuinely excited about my great result.",joy,joy,0.9999995231628418
+"I have to admit, I am cross because of the repeated mistake.",anger,anger,0.999995231628418
+"I have to admit, It is hard to hide how astonished I feel about the unbelievable result. The feeling is difficult to ignore.",surprise,surprise,0.9999992847442627
+"At this moment, I feel extremely miserable about missing my friends. It has stayed on my mind.",sadness,sadness,0.9999990463256836
+"I have to admit, I am grateful because of my great result. That is my honest reaction.",joy,joy,0.9999979734420776
+"To be honest, Thinking about the sudden gift leaves me startled. It has stayed on my mind.",surprise,surprise,0.9999997615814209
+"After thinking about it, I am in disbelief because of the last-minute change. I can feel it strongly.",surprise,surprise,0.9999990463256836
+"To be honest, Today I feel excited; it is connected to my great result. It has stayed on my mind.",joy,joy,0.9999990463256836
+"After thinking about it, I keep feeling pleased whenever I remember today's good news. It has stayed on my mind.",joy,joy,0.9999983310699463
+"After thinking about it, Right now I am extremely annoyed. That is my honest reaction.",anger,anger,0.9997949004173279
+"I have to admit, Thinking about being ignored leaves me outraged. I can feel it strongly.",anger,anger,0.9999972581863403
+"At this moment, Today I feel resentful; it is connected to the broken promise. The feeling is difficult to ignore.",anger,anger,0.9999974966049194
+"To be honest, I feel completely heartbroken about missing my friends. It has stayed on my mind.",sadness,sadness,0.9999998807907104
+"I have to admit, My mood is frustrated after being ignored. That is my honest reaction.",anger,anger,0.9999964237213135
+"To be honest, I keep feeling unhappy whenever I remember the disappointing news.",sadness,sadness,0.9999997615814209
+"After thinking about it, It is hard to hide how irritated I feel about the unnecessary delay. I can feel it strongly.",anger,anger,0.9999990463256836
+"After thinking about it, Right now I am quite cheerful. The feeling is difficult to ignore.",joy,joy,0.9999299049377441
+"After thinking about it, It is hard to hide how cheerful I feel about today's good news. That is my honest reaction.",joy,joy,0.9999994039535522
+"I have to admit, I feel so delighted about the new opportunity.",joy,joy,0.9999991655349731
+"To be honest, I keep feeling devoted whenever I remember a thoughtful message. It has stayed on my mind.",love,love,0.9999995231628418
+It is hard to hide how loving I feel about our time together. That is my honest reaction.,love,love,0.9999982118606567
+"At this moment, I am shocked because of the sudden gift.",surprise,surprise,0.9999996423721313
+"After thinking about it, It is hard to hide how cross I feel about the unnecessary delay. It has stayed on my mind.",anger,anger,0.9999992847442627
+"To be honest, The way I feel can only be described as romantic.",love,love,0.9999561309814453
+"At this moment, Today I feel worried; it is connected to what might happen tomorrow. The feeling is difficult to ignore.",fear,fear,0.9999970197677612
+"At this moment, My mood is loving after my closest friend. It has stayed on my mind.",love,love,0.999990701675415
+"After thinking about it, My mood is adored after the kindness I received. The feeling is difficult to ignore.",love,love,0.9999991655349731
+"To be honest, It is hard to hide how furious I feel about the unfair decision. It has stayed on my mind.",anger,anger,0.9999991655349731
+The way I feel can only be described as down. That is my honest reaction.,sadness,sadness,0.9999176263809204
+"After thinking about it, I keep feeling fearful whenever I remember the upcoming examination. The feeling is difficult to ignore.",fear,fear,0.9999995231628418
+"At this moment, I keep feeling loving whenever I remember the person I care about. It has stayed on my mind.",love,love,0.9999988079071045
+"At this moment, Right now I am truly excited. That is my honest reaction.",joy,joy,0.9999783039093018
+"After thinking about it, Today I feel thrilled; it is connected to meeting my friends.",joy,joy,0.9999996423721313
+"I have to admit, Honestly, my great result makes me feel happy. It has stayed on my mind.",joy,joy,0.9999982118606567
+Today I feel uneasy; it is connected to the risky journey. It has stayed on my mind.,fear,fear,0.999998927116394
+My mood is nervous after speaking in public.,fear,fear,0.9999926090240479
+"At this moment, My mood is gloomy after the difficult goodbye. I can feel it strongly.",sadness,sadness,0.9999996423721313
+"Honestly, missing my friends makes me feel tearful. It has stayed on my mind.",sadness,sadness,0.9999986886978149
+"I have to admit, I am sad because of the disappointing news. I can feel it strongly.",sadness,sadness,0.9999997615814209
+"I have to admit, I feel quite joyful about my great result. I can feel it strongly.",joy,joy,0.9999957084655762
+"At this moment, I keep feeling resentful whenever I remember the unfair decision. It has stayed on my mind.",anger,anger,0.9999988079071045
+"To be honest, I keep feeling worried whenever I remember the upcoming examination. The feeling is difficult to ignore.",fear,fear,0.9999998807907104
+"After thinking about it, Right now I am completely amazed. That is my honest reaction.",surprise,surprise,0.9997612833976746
+The way I feel can only be described as optimistic.,joy,joy,0.9984403252601624
+"After thinking about it, Right now I am truly speechless. I can feel it strongly.",surprise,surprise,0.9987336993217468
+"To be honest, I keep feeling terrified whenever I remember the upcoming examination. It has stayed on my mind.",fear,fear,1.0
+"To be honest, It is hard to hide how stunned I feel about the surprise visitor.",surprise,surprise,0.9999986886978149
+"At this moment, I am nervous because of speaking in public. I can feel it strongly.",fear,fear,0.9999994039535522
+"After thinking about it, I am adored because of my family. That is my honest reaction.",love,love,0.9999957084655762
+"At this moment, The way I feel can only be described as resentful. That is my honest reaction.",anger,anger,0.9991593360900879
+"After thinking about it, I feel so irritated about the rude response. That is my honest reaction.",anger,anger,0.9999995231628418
+Thinking about our time together leaves me adored. I can feel it strongly.,love,love,0.9999982118606567
+"After thinking about it, It is hard to hide how enraged I feel about the unfair decision.",anger,anger,0.9999982118606567
+"Honestly, the shocking update makes me feel startled. That is my honest reaction.",surprise,surprise,0.9999990463256836
+"At this moment, Honestly, missing my friends makes me feel sorrowful. I can feel it strongly.",sadness,sadness,0.9999961853027344
+"At this moment, Right now I am quite loving. The feeling is difficult to ignore.",love,love,0.9999618530273438
+"I have to admit, I keep feeling terrified whenever I remember what might happen tomorrow. It has stayed on my mind.",fear,fear,0.9999983310699463
+"Honestly, meeting my friends makes me feel joyful. The feeling is difficult to ignore.",joy,joy,0.9999822378158569
+"To be honest, Thinking about a lonely evening leaves me sad. The feeling is difficult to ignore.",sadness,sadness,0.9999997615814209
+"At this moment, Right now I am quite sorrowful. That is my honest reaction.",sadness,sadness,0.9998769760131836
+"To be honest, Today I feel uneasy; it is connected to what might happen tomorrow. It has stayed on my mind.",fear,fear,0.9999985694885254
+"To be honest, Right now I am incredibly wonderful. I can feel it strongly.",joy,joy,0.9999635219573975
+"To be honest, Today I feel caring; it is connected to my family. The feeling is difficult to ignore.",love,love,0.9999912977218628
+"At this moment, Right now I am genuinely furious. The feeling is difficult to ignore.",anger,anger,0.999686598777771
+Thinking about my great result leaves me cheerful. The feeling is difficult to ignore.,joy,joy,0.9999978542327881
+Thinking about missing my friends leaves me unhappy. That is my honest reaction.,sadness,sadness,0.9999953508377075
+"I have to admit, Right now I am so amazed.",surprise,surprise,0.9981897473335266
+"At this moment, Thinking about today's good news leaves me pleased. The feeling is difficult to ignore.",joy,joy,0.9999990463256836
+"To be honest, I keep feeling scared whenever I remember the risky journey. It has stayed on my mind.",fear,fear,0.9999994039535522
+"I have to admit, Thinking about finishing the project leaves me delighted. That is my honest reaction.",joy,joy,0.9999973773956299
+"At this moment, I keep feeling amazed whenever I remember the unbelievable result.",surprise,surprise,0.9999992847442627
+Right now I am very enraged.,anger,anger,0.9990645051002502
+The way I feel can only be described as taken aback. That is my honest reaction.,surprise,surprise,0.9999861717224121
+"At this moment, The way I feel can only be described as resentful. The feeling is difficult to ignore.",anger,anger,0.9996612071990967
+"I have to admit, I keep feeling anxious whenever I remember the risky journey. I can feel it strongly.",fear,fear,0.9999984502792358
+"At this moment, It is hard to hide how cheerful I feel about my great result.",joy,joy,0.9999988079071045
+"At this moment, I am amazed because of the sudden gift. The feeling is difficult to ignore.",surprise,surprise,0.9999998807907104
+"After thinking about it, It is hard to hide how grateful I feel about my great result. The feeling is difficult to ignore.",joy,joy,0.999998927116394
+"After thinking about it, Right now I am quite down.",sadness,sadness,0.9971166849136353
+"I have to admit, Today I feel tearful; it is connected to the disappointing news. It has stayed on my mind.",sadness,sadness,0.9999994039535522
+"I have to admit, Honestly, today's good news makes me feel pleased. The feeling is difficult to ignore.",joy,joy,0.9999980926513672
+"To be honest, It is hard to hide how cheerful I feel about today's good news. The feeling is difficult to ignore.",joy,joy,0.9999986886978149
+"To be honest, Thinking about what might happen tomorrow leaves me panicked. That is my honest reaction.",fear,fear,0.999998927116394
+"At this moment, Right now I am genuinely optimistic. I can feel it strongly.",joy,joy,0.9985690116882324
+"To be honest, Thinking about the kindness I received leaves me close. I can feel it strongly.",love,love,0.9999995231628418
+"At this moment, My mood is astonished after the last-minute change. It has stayed on my mind.",surprise,surprise,0.999997615814209
+"To be honest, I am startled because of the unexpected announcement. That is my honest reaction.",surprise,surprise,1.0
+"To be honest, Thinking about the uncertain situation leaves me scared. I can feel it strongly.",fear,fear,0.9999994039535522
+"To be honest, I keep feeling frightened whenever I remember the uncertain situation. That is my honest reaction.",fear,fear,0.9999996423721313
+"I have to admit, It is hard to hide how taken aback I feel about the surprise visitor. That is my honest reaction.",surprise,surprise,0.9999997615814209
+"I have to admit, Thinking about the unbelievable result leaves me speechless. It has stayed on my mind.",surprise,surprise,0.9999992847442627
+"At this moment, It is hard to hide how down I feel about missing my friends. The feeling is difficult to ignore.",sadness,sadness,0.9999991655349731
+"Honestly, a thoughtful message makes me feel adored. I can feel it strongly.",love,love,0.9999992847442627
+"I have to admit, I am happy because of the new opportunity.",joy,joy,0.9999969005584717
+"At this moment, I keep feeling excited whenever I remember today's good news. The feeling is difficult to ignore.",joy,joy,0.9999990463256836
+"I have to admit, I keep feeling enraged whenever I remember the unnecessary delay. I can feel it strongly.",anger,anger,0.9999994039535522
+"I have to admit, Today I feel unexpectedly amazed; it is connected to the surprise visitor. It has stayed on my mind.",surprise,surprise,0.9999997615814209
+"To be honest, Right now I am incredibly unexpectedly amazed. It has stayed on my mind.",surprise,surprise,0.9999703168869019
+"At this moment, It is hard to hide how speechless I feel about the last-minute change. The feeling is difficult to ignore.",surprise,surprise,0.9999972581863403
+I am frightened because of the risky journey. That is my honest reaction.,fear,fear,0.9999995231628418
+"At this moment, It is hard to hide how resentful I feel about the unfair decision. It has stayed on my mind.",anger,anger,0.9999983310699463
+"After thinking about it, Thinking about the sudden noise leaves me fearful.",fear,fear,0.9999735355377197
+"After thinking about it, It is hard to hide how amazed I feel about the unexpected announcement. I can feel it strongly.",surprise,surprise,0.9999982118606567
+"I have to admit, My mood is irritated after the broken promise. It has stayed on my mind.",anger,anger,0.9999984502792358
+I keep feeling frightened whenever I remember the sudden noise. It has stayed on my mind.,fear,fear,0.9999967813491821
+"To be honest, I am cheerful because of my great result. The feeling is difficult to ignore.",joy,joy,0.9999963045120239
+I am pleased because of finishing the project. I can feel it strongly.,joy,joy,0.9999903440475464
+"After thinking about it, Thinking about the kindness I received leaves me romantic. I can feel it strongly.",love,love,0.9999991655349731
+"At this moment, I feel truly down about the difficult goodbye. That is my honest reaction.",sadness,sadness,0.9999996423721313
+"At this moment, Right now I am extremely taken aback. I can feel it strongly.",surprise,surprise,0.9998942613601685
+My mood is wonderful after the wonderful celebration. That is my honest reaction.,joy,joy,0.9999951124191284
+"At this moment, Right now I am very cross. It has stayed on my mind.",anger,anger,0.9999512434005737
+"I have to admit, Today I feel worried; it is connected to speaking in public. The feeling is difficult to ignore.",fear,fear,0.9999990463256836
+"After thinking about it, The way I feel can only be described as tearful. The feeling is difficult to ignore.",sadness,sadness,0.9999514818191528
+"After thinking about it, Honestly, being ignored makes me feel annoyed. The feeling is difficult to ignore.",anger,anger,0.9999971389770508
+The way I feel can only be described as startled. The feeling is difficult to ignore.,surprise,surprise,0.9999868869781494
+"To be honest, I keep feeling frustrated whenever I remember the unnecessary delay. It has stayed on my mind.",anger,anger,0.9999995231628418
+"After thinking about it, Thinking about losing the opportunity leaves me heartbroken. I can feel it strongly.",sadness,sadness,0.9999961853027344
+Right now I am extremely romantic. I can feel it strongly.,love,love,0.9998759031295776
+"I have to admit, I am sad because of the difficult goodbye. That is my honest reaction.",sadness,sadness,0.9999995231628418
+"I have to admit, Today I feel astonished; it is connected to the surprise visitor.",surprise,surprise,0.9999990463256836
+Thinking about the last-minute change leaves me unexpectedly amazed. That is my honest reaction.,surprise,surprise,0.9999998807907104
+Right now I am truly pleased.,joy,joy,0.9990882873535156
+"I have to admit, Right now I am truly thrilled. That is my honest reaction.",joy,joy,0.9999836683273315
+It is hard to hide how taken aback I feel about the sudden gift. It has stayed on my mind.,surprise,surprise,0.9999996423721313
+"At this moment, I am sad because of the disappointing news. The feeling is difficult to ignore.",sadness,sadness,0.9999996423721313
+"At this moment, Today I feel gloomy; it is connected to the difficult goodbye. The feeling is difficult to ignore.",sadness,sadness,0.9999995231628418
+Today I feel annoyed; it is connected to the rude response. The feeling is difficult to ignore.,anger,anger,0.9999996423721313
+"To be honest, Thinking about the uncertain situation leaves me nervous. The feeling is difficult to ignore.",fear,fear,0.9999991655349731
+Right now I am deeply uneasy.,fear,fear,0.9997333884239197
+"I have to admit, My mood is panicked after the risky journey.",fear,fear,0.9999929666519165
+"After thinking about it, Honestly, a lonely evening makes me feel heartbroken.",sadness,sadness,0.9999997615814209
+I am enraged because of the repeated mistake. That is my honest reaction.,anger,anger,0.9999984502792358
+"I have to admit, Honestly, the uncertain situation makes me feel afraid. That is my honest reaction.",fear,fear,0.9999991655349731
+Thinking about the new opportunity leaves me joyful. The feeling is difficult to ignore.,joy,joy,0.9999977350234985
+"At this moment, I am furious because of the unfair decision.",anger,anger,0.9999980926513672
+"After thinking about it, Right now I am really unexpectedly amazed. It has stayed on my mind.",surprise,surprise,0.999947190284729
+I feel really romantic about my family. It has stayed on my mind.,love,love,0.9999934434890747
+"I have to admit, It is hard to hide how excited I feel about finishing the project.",joy,joy,0.9999991655349731
+"To be honest, It is hard to hide how unexpectedly amazed I feel about the unexpected announcement. The feeling is difficult to ignore.",surprise,surprise,0.9999996423721313
+"At this moment, Today I feel unexpectedly amazed; it is connected to the shocking update.",surprise,surprise,0.9999995231628418
+"I have to admit, I am irritated because of the broken promise. That is my honest reaction.",anger,anger,0.9999983310699463
+"To be honest, The way I feel can only be described as afraid. I can feel it strongly.",fear,fear,0.9999798536300659
+"At this moment, Right now I am extremely warm. It has stayed on my mind.",love,love,0.9999724626541138
+"After thinking about it, It is hard to hide how terrified I feel about the risky journey.",fear,fear,0.9999969005584717
+"After thinking about it, Thinking about a thoughtful message leaves me adored.",love,love,0.9999995231628418
+"I have to admit, I keep feeling fearful whenever I remember the upcoming examination. The feeling is difficult to ignore.",fear,fear,0.9999997615814209
+The way I feel can only be described as happy. The feeling is difficult to ignore.,joy,joy,0.9998985528945923
+I feel very happy about my great result. That is my honest reaction.,joy,joy,0.9999991655349731
+"At this moment, I feel extremely resentful about the rude response. It has stayed on my mind.",anger,anger,0.9999992847442627
+"I have to admit, My mood is excited after the new opportunity. It has stayed on my mind.",joy,joy,0.9999991655349731
+"To be honest, Right now I am deeply frustrated.",anger,anger,0.9984068274497986
+"After thinking about it, The way I feel can only be described as worried. It has stayed on my mind.",fear,fear,0.9999313354492188
+"To be honest, It is hard to hide how irritated I feel about the broken promise. That is my honest reaction.",anger,anger,0.9999982118606567
+"After thinking about it, I keep feeling astonished whenever I remember the surprise visitor. It has stayed on my mind.",surprise,surprise,0.9999994039535522
+"After thinking about it, Right now I am quite afraid. That is my honest reaction.",fear,fear,0.9999639987945557
+"To be honest, The way I feel can only be described as uneasy. The feeling is difficult to ignore.",fear,fear,0.9999760389328003
+"After thinking about it, Right now I am truly lonely. I can feel it strongly.",sadness,sadness,0.999921441078186
+"At this moment, Honestly, the kindness I received makes me feel devoted. I can feel it strongly.",love,love,0.9999992847442627
+"At this moment, I keep feeling gloomy whenever I remember missing my friends. I can feel it strongly.",sadness,sadness,0.9999997615814209
+Right now I am truly fond. It has stayed on my mind.,love,love,0.9998995065689087
+"After thinking about it, Today I feel thrilled; it is connected to finishing the project.",joy,joy,0.9999992847442627
+"To be honest, It is hard to hide how close I feel about a thoughtful message. It has stayed on my mind.",love,love,0.9999996423721313
+"I have to admit, It is hard to hide how surprised I feel about the shocking update.",surprise,surprise,0.9999977350234985
+"After thinking about it, My mood is anxious after the uncertain situation. The feeling is difficult to ignore.",fear,fear,0.999997615814209
+"At this moment, I keep feeling excited whenever I remember meeting my friends. I can feel it strongly.",joy,joy,0.9999986886978149
+"To be honest, My mood is surprised after the unbelievable result. That is my honest reaction.",surprise,surprise,0.9999990463256836
+I am warm because of my closest friend. I can feel it strongly.,love,love,0.9999984502792358
+"At this moment, Thinking about the last-minute change leaves me amazed. That is my honest reaction.",surprise,surprise,0.9999995231628418
+"After thinking about it, Today I feel angry; it is connected to being ignored. I can feel it strongly.",anger,anger,0.999998927116394
+"At this moment, The way I feel can only be described as terrified. I can feel it strongly.",fear,fear,0.999940037727356
+I am enraged because of the repeated mistake. The feeling is difficult to ignore.,anger,anger,0.9999986886978149
+"At this moment, My mood is anxious after the sudden noise.",fear,fear,0.9999854564666748
+Thinking about the broken promise leaves me resentful. I can feel it strongly.,anger,anger,0.9999986886978149
+"After thinking about it, I keep feeling annoyed whenever I remember the repeated mistake. It has stayed on my mind.",anger,anger,0.9999985694885254
+"To be honest, I feel incredibly enraged about the broken promise. That is my honest reaction.",anger,anger,0.9999997615814209
+"Honestly, the rude response makes me feel annoyed. That is my honest reaction.",anger,anger,0.9999992847442627
+"To be honest, The way I feel can only be described as cross. It has stayed on my mind.",anger,anger,0.999940037727356
+"At this moment, The way I feel can only be described as mad. The feeling is difficult to ignore.",anger,anger,0.9999098777770996
+It is hard to hide how down I feel about a lonely evening.,sadness,sadness,0.9999995231628418
+"To be honest, It is hard to hide how anxious I feel about the uncertain situation.",fear,fear,0.9999966621398926
+"I have to admit, I am fearful because of the sudden noise. The feeling is difficult to ignore.",fear,fear,0.9999980926513672
+"At this moment, I keep feeling panicked whenever I remember the risky journey. The feeling is difficult to ignore.",fear,fear,0.9999983310699463
+I keep feeling happy whenever I remember the wonderful celebration. The feeling is difficult to ignore.,joy,joy,0.9999924898147583
+"At this moment, I feel quite scared about the sudden noise. I can feel it strongly.",fear,fear,0.9999986886978149
+"At this moment, Thinking about the unexpected announcement leaves me startled.",surprise,surprise,0.9999994039535522
+"At this moment, Today I feel loving; it is connected to a thoughtful message. I can feel it strongly.",love,love,0.9999984502792358
+"At this moment, It is hard to hide how tearful I feel about the disappointing news. I can feel it strongly.",sadness,sadness,0.9999996423721313
+"To be honest, Honestly, the repeated mistake makes me feel mad. It has stayed on my mind.",anger,anger,0.9999991655349731
+"At this moment, I keep feeling sad whenever I remember the disappointing news.",sadness,sadness,0.999998927116394
+"I have to admit, I feel completely caring about my closest friend. I can feel it strongly.",love,love,0.9999977350234985
+"I have to admit, Right now I am genuinely excited. It has stayed on my mind.",joy,joy,0.9999338388442993
+I keep feeling fearful whenever I remember the upcoming examination. That is my honest reaction.,fear,fear,0.9999998807907104
+I am panicked because of what might happen tomorrow. The feeling is difficult to ignore.,fear,fear,0.9999988079071045
+"Honestly, my closest friend makes me feel tender.",love,love,0.9999885559082031
+"Honestly, the unnecessary delay makes me feel outraged.",anger,anger,0.9999979734420776
+"I have to admit, It is hard to hide how fond I feel about the person I care about. I can feel it strongly.",love,love,0.9999995231628418
+"I have to admit, Thinking about the risky journey leaves me nervous. I can feel it strongly.",fear,fear,0.9999984502792358
+"After thinking about it, The way I feel can only be described as tender. It has stayed on my mind.",love,love,0.9999513626098633
+"I have to admit, Today I feel taken aback; it is connected to the unexpected announcement. I can feel it strongly.",surprise,surprise,0.9999995231628418
+"I have to admit, Honestly, the sudden noise makes me feel frightened. That is my honest reaction.",fear,fear,0.99998939037323
+It is hard to hide how startled I feel about the surprise visitor. That is my honest reaction.,surprise,surprise,0.9999998807907104
+"After thinking about it, It is hard to hide how joyful I feel about today's good news. It has stayed on my mind.",joy,joy,0.9999986886978149
+I feel extremely gloomy about losing the opportunity. That is my honest reaction.,sadness,sadness,0.999998927116394
+"Honestly, the last-minute change makes me feel amazed. I can feel it strongly.",surprise,surprise,0.9999982118606567
+It is hard to hide how wonderful I feel about meeting my friends.,joy,joy,0.9999990463256836
+"After thinking about it, I am cross because of the repeated mistake. I can feel it strongly.",anger,anger,0.9999984502792358
+"At this moment, The way I feel can only be described as loving. The feeling is difficult to ignore.",love,love,0.999982476234436
+"After thinking about it, I am fearful because of the uncertain situation. It has stayed on my mind.",fear,fear,0.9999995231628418
+"At this moment, Right now I am completely frustrated. I can feel it strongly.",anger,anger,0.9998179078102112
+"To be honest, Honestly, a thoughtful message makes me feel romantic. The feeling is difficult to ignore.",love,love,0.9999996423721313
+I am optimistic because of my great result.,joy,joy,0.9999874830245972
+"At this moment, I feel incredibly frustrated about the repeated mistake. The feeling is difficult to ignore.",anger,anger,0.9999994039535522
+"After thinking about it, Today I feel terrified; it is connected to the sudden noise. I can feel it strongly.",fear,fear,0.9999978542327881
+"Honestly, the difficult goodbye makes me feel sad. It has stayed on my mind.",sadness,sadness,0.9999932050704956
+"After thinking about it, I keep feeling thrilled whenever I remember meeting my friends. That is my honest reaction.",joy,joy,0.9999994039535522
+"After thinking about it, It is hard to hide how afraid I feel about the uncertain situation.",fear,fear,0.9999985694885254
+"At this moment, Today I feel adored; it is connected to a thoughtful message. I can feel it strongly.",love,love,0.9999979734420776
+"At this moment, The way I feel can only be described as wonderful. It has stayed on my mind.",joy,joy,0.9999822378158569
+"To be honest, Honestly, the last-minute change makes me feel amazed. It has stayed on my mind.",surprise,surprise,0.9999974966049194
+"After thinking about it, My mood is afraid after the risky journey. I can feel it strongly.",fear,fear,0.9999985694885254
+"At this moment, I keep feeling startled whenever I remember the unbelievable result. The feeling is difficult to ignore.",surprise,surprise,0.9999998807907104
+I feel so devoted about the kindness I received. The feeling is difficult to ignore.,love,love,0.9999997615814209
+My mood is nervous after the upcoming examination. That is my honest reaction.,fear,fear,0.9999997615814209
+Today I feel sad; it is connected to a lonely evening. That is my honest reaction.,sadness,sadness,0.9999992847442627
+"To be honest, It is hard to hide how unhappy I feel about losing the opportunity. It has stayed on my mind.",sadness,sadness,0.9999988079071045
+"I have to admit, Honestly, my closest friend makes me feel romantic. That is my honest reaction.",love,love,0.9999948740005493
+"At this moment, I feel completely amazed about the unexpected announcement. The feeling is difficult to ignore.",surprise,surprise,0.9999998807907104
+"At this moment, Honestly, the new opportunity makes me feel excited. The feeling is difficult to ignore.",joy,joy,0.9999983310699463
+"To be honest, I keep feeling optimistic whenever I remember the wonderful celebration. The feeling is difficult to ignore.",joy,joy,0.9999933242797852
+"To be honest, Thinking about the unnecessary delay leaves me cross. The feeling is difficult to ignore.",anger,anger,0.9999996423721313
+"At this moment, Right now I am incredibly fond. It has stayed on my mind.",love,love,0.9999617338180542
+"I have to admit, The way I feel can only be described as down.",sadness,sadness,0.9964293837547302
+"I have to admit, I feel incredibly furious about the unnecessary delay. The feeling is difficult to ignore.",anger,anger,0.9999994039535522
+"At this moment, It is hard to hide how happy I feel about the wonderful celebration. The feeling is difficult to ignore.",joy,joy,0.9999990463256836
+"I have to admit, Thinking about the sudden gift leaves me amazed. I can feel it strongly.",surprise,surprise,0.9999996423721313
+"To be honest, Right now I am truly cheerful. That is my honest reaction.",joy,joy,0.9999786615371704
+"After thinking about it, Thinking about our time together leaves me devoted. I can feel it strongly.",love,love,0.999998927116394
+"To be honest, Right now I am very startled. It has stayed on my mind.",surprise,surprise,0.9998206496238708
+"After thinking about it, The way I feel can only be described as scared. That is my honest reaction.",fear,fear,0.9999690055847168
+"At this moment, Thinking about the shocking update leaves me in disbelief. The feeling is difficult to ignore.",surprise,surprise,0.9999983310699463
+I feel so fearful about the uncertain situation. That is my honest reaction.,fear,fear,0.9999997615814209
+"At this moment, Honestly, a lonely evening makes me feel sorrowful. That is my honest reaction.",sadness,sadness,0.9999996423721313
+"At this moment, Honestly, the difficult goodbye makes me feel gloomy.",sadness,sadness,0.9999970197677612
+"After thinking about it, Right now I am so disappointed. It has stayed on my mind.",sadness,sadness,0.9999600648880005
+"After thinking about it, I feel quite lonely about the failed plan. I can feel it strongly.",sadness,sadness,0.9999997615814209
+"After thinking about it, Today I feel panicked; it is connected to the sudden noise. It has stayed on my mind.",fear,fear,0.9999964237213135
+"After thinking about it, Today I feel annoyed; it is connected to the unnecessary delay.",anger,anger,0.9999978542327881
+"To be honest, Right now I am very down. The feeling is difficult to ignore.",sadness,sadness,0.9999611377716064
+"I have to admit, It is hard to hide how gloomy I feel about the disappointing news. The feeling is difficult to ignore.",sadness,sadness,0.9999996423721313
+It is hard to hide how loving I feel about the kindness I received. That is my honest reaction.,love,love,0.9999994039535522
+"At this moment, Honestly, our time together makes me feel tender. It has stayed on my mind.",love,love,0.9999991655349731
+"After thinking about it, Thinking about missing my friends leaves me lonely. I can feel it strongly.",sadness,sadness,0.9999963045120239
+"To be honest, Right now I am really in disbelief. I can feel it strongly.",surprise,surprise,0.9998264908790588
+"After thinking about it, Right now I am quite sad.",sadness,sadness,0.9912450909614563
+It is hard to hide how frustrated I feel about the repeated mistake. The feeling is difficult to ignore.,anger,anger,0.9999980926513672
+"To be honest, The way I feel can only be described as nervous. I can feel it strongly.",fear,fear,0.9999439716339111
+"At this moment, Right now I am completely frightened.",fear,fear,0.9965147972106934
+"At this moment, Honestly, a lonely evening makes me feel sad. I can feel it strongly.",sadness,sadness,0.9999996423721313
+"To be honest, Today I feel sad; it is connected to a lonely evening. That is my honest reaction.",sadness,sadness,0.9999996423721313
+"I have to admit, I keep feeling in disbelief whenever I remember the sudden gift. The feeling is difficult to ignore.",surprise,surprise,0.9999997615814209
+I feel extremely irritated about the unfair decision.,anger,anger,0.9999990463256836
+"At this moment, Honestly, the sudden gift makes me feel taken aback. The feeling is difficult to ignore.",surprise,surprise,0.9999997615814209
+"After thinking about it, Thinking about finishing the project leaves me excited. It has stayed on my mind.",joy,joy,0.9999990463256836
+"I have to admit, Right now I am quite wonderful. It has stayed on my mind.",joy,joy,0.999984622001648
+"At this moment, It is hard to hide how surprised I feel about the unbelievable result. The feeling is difficult to ignore.",surprise,surprise,0.9999994039535522
+My mood is pleased after finishing the project. That is my honest reaction.,joy,joy,0.9999887943267822
+"To be honest, Right now I am truly wonderful.",joy,joy,0.9999088048934937
+"At this moment, I feel truly annoyed about being ignored. It has stayed on my mind.",anger,anger,0.9999994039535522
+"To be honest, Thinking about the difficult goodbye leaves me sad. That is my honest reaction.",sadness,sadness,0.9999935626983643
+The way I feel can only be described as pleased. I can feel it strongly.,joy,joy,0.9998267292976379
+"To be honest, My mood is caring after a thoughtful message. The feeling is difficult to ignore.",love,love,0.9999988079071045
+"At this moment, The way I feel can only be described as resentful. It has stayed on my mind.",anger,anger,0.9995238780975342
+I keep feeling worried whenever I remember what might happen tomorrow. It has stayed on my mind.,fear,fear,0.9999985694885254
+"After thinking about it, Today I feel joyful; it is connected to the wonderful celebration. The feeling is difficult to ignore.",joy,joy,0.9999973773956299
+"To be honest, I am grateful because of meeting my friends. The feeling is difficult to ignore.",joy,joy,0.9999963045120239
+"At this moment, Thinking about the kindness I received leaves me warm. It has stayed on my mind.",love,love,0.9999995231628418
+"To be honest, Honestly, our time together makes me feel romantic. It has stayed on my mind.",love,love,0.9999994039535522
+Thinking about the sudden noise leaves me frightened. The feeling is difficult to ignore.,fear,fear,0.9999806880950928
+"I have to admit, Honestly, the difficult goodbye makes me feel tearful. That is my honest reaction.",sadness,sadness,0.9999967813491821
+I feel completely annoyed about the rude response. It has stayed on my mind.,anger,anger,0.9999997615814209
+"I have to admit, Honestly, today's good news makes me feel pleased.",joy,joy,0.9999971389770508
+"At this moment, I feel quite caring about the person I care about.",love,love,0.9999998807907104
+"To be honest, I feel extremely cross about the repeated mistake. I can feel it strongly.",anger,anger,0.9999990463256836
+"At this moment, I am terrified because of the uncertain situation.",fear,fear,0.9999994039535522
+"I have to admit, My mood is grateful after the new opportunity.",joy,joy,0.9999946355819702
+"At this moment, Today I feel nervous; it is connected to the uncertain situation.",fear,fear,0.9999971389770508
+Right now I am deeply loving. That is my honest reaction.,love,love,0.9999775886535645
+"To be honest, I keep feeling nervous whenever I remember the risky journey. It has stayed on my mind.",fear,fear,0.9999991655349731
+"At this moment, Right now I am very down. That is my honest reaction.",sadness,sadness,0.9999094009399414
+"After thinking about it, It is hard to hide how romantic I feel about the person I care about. I can feel it strongly.",love,love,0.9999994039535522
+I feel extremely worried about the uncertain situation.,fear,fear,0.9999991655349731
+"I have to admit, Today I feel furious; it is connected to the unnecessary delay. The feeling is difficult to ignore.",anger,anger,0.9999994039535522
+Right now I am very irritated. I can feel it strongly.,anger,anger,0.999940037727356
+"After thinking about it, It is hard to hide how sorrowful I feel about losing the opportunity.",sadness,sadness,0.9999966621398926
+"I have to admit, Right now I am completely frightened. That is my honest reaction.",fear,fear,0.9997953772544861
+"To be honest, My mood is frustrated after the repeated mistake. I can feel it strongly.",anger,anger,0.9999982118606567
+"To be honest, I feel really fearful about speaking in public.",fear,fear,0.9999990463256836
+"Honestly, the unnecessary delay makes me feel resentful.",anger,anger,0.999997615814209
+"Honestly, the unbelievable result makes me feel in disbelief. I can feel it strongly.",surprise,surprise,0.9999980926513672
+"After thinking about it, The way I feel can only be described as affectionate. I can feel it strongly.",love,love,0.9999657869338989
+"At this moment, My mood is thrilled after the new opportunity.",joy,joy,0.9999979734420776
+"I have to admit, It is hard to hide how worried I feel about the risky journey. It has stayed on my mind.",fear,fear,0.999998927116394
+"At this moment, I feel so miserable about the failed plan. I can feel it strongly.",sadness,sadness,0.9999998807907104
+My mood is down after a lonely evening. The feeling is difficult to ignore.,sadness,sadness,0.9999996423721313
+Thinking about the upcoming examination leaves me nervous. I can feel it strongly.,fear,fear,0.9999990463256836
+"I have to admit, Thinking about the unexpected announcement leaves me in disbelief. That is my honest reaction.",surprise,surprise,0.9999996423721313
+"At this moment, It is hard to hide how grateful I feel about the wonderful celebration. That is my honest reaction.",joy,joy,0.9999988079071045
+"I have to admit, The way I feel can only be described as panicked. That is my honest reaction.",fear,fear,0.9999496936798096
+"To be honest, I keep feeling unhappy whenever I remember losing the opportunity. It has stayed on my mind.",sadness,sadness,0.9999994039535522
+"At this moment, The way I feel can only be described as wonderful. I can feel it strongly.",joy,joy,0.9999806880950928
+"After thinking about it, The way I feel can only be described as fond. It has stayed on my mind.",love,love,0.9999426603317261
+My mood is angry after being ignored.,anger,anger,0.9999942779541016
+"At this moment, I keep feeling down whenever I remember losing the opportunity. It has stayed on my mind.",sadness,sadness,0.9999983310699463
+"To be honest, My mood is annoyed after the repeated mistake. The feeling is difficult to ignore.",anger,anger,0.9999978542327881
+It is hard to hide how speechless I feel about the unexpected announcement. It has stayed on my mind.,surprise,surprise,0.9999980926513672
+"After thinking about it, I keep feeling afraid whenever I remember the uncertain situation. The feeling is difficult to ignore.",fear,fear,0.9999995231628418
+I am delighted because of finishing the project.,joy,joy,0.9999905824661255
+"At this moment, It is hard to hide how uneasy I feel about the risky journey.",fear,fear,0.9999967813491821
+"I have to admit, Today I feel speechless; it is connected to the sudden gift. That is my honest reaction.",surprise,surprise,0.9999997615814209
+"After thinking about it, I keep feeling warm whenever I remember my closest friend. The feeling is difficult to ignore.",love,love,0.9999988079071045
+"At this moment, I am panicked because of the uncertain situation.",fear,fear,0.9999990463256836
+"After thinking about it, I feel really surprised about the surprise visitor. I can feel it strongly.",surprise,surprise,0.9999998807907104
+"At this moment, Honestly, the unfair decision makes me feel angry. It has stayed on my mind.",anger,anger,0.9999995231628418
+"To be honest, Thinking about the repeated mistake leaves me outraged. It has stayed on my mind.",anger,anger,0.999998927116394
+Today I feel enraged; it is connected to the rude response.,anger,anger,0.9999997615814209
+"I have to admit, Honestly, the difficult goodbye makes me feel tearful. It has stayed on my mind.",sadness,sadness,0.9999972581863403
+The way I feel can only be described as joyful. The feeling is difficult to ignore.,joy,joy,0.9998321533203125
+"I have to admit, I am warm because of the person I care about. The feeling is difficult to ignore.",love,love,0.9999998807907104
+I am astonished because of the sudden gift. The feeling is difficult to ignore.,surprise,surprise,0.9999998807907104
+"To be honest, Thinking about our time together leaves me fond. I can feel it strongly.",love,love,0.9999992847442627
+"I have to admit, My mood is excited after finishing the project. The feeling is difficult to ignore.",joy,joy,0.9999979734420776
+"After thinking about it, Right now I am genuinely caring. The feeling is difficult to ignore.",love,love,0.9998438358306885
+"To be honest, Thinking about the uncertain situation leaves me uneasy. I can feel it strongly.",fear,fear,0.9999997615814209
+"After thinking about it, Right now I am so annoyed. It has stayed on my mind.",anger,anger,0.99993896484375
+Today I feel frustrated; it is connected to the broken promise. That is my honest reaction.,anger,anger,0.9999990463256836
+"I have to admit, Honestly, the repeated mistake makes me feel irritated. That is my honest reaction.",anger,anger,0.9999983310699463
+"At this moment, I am disappointed because of the disappointing news.",sadness,sadness,0.9999997615814209
+"After thinking about it, My mood is unhappy after missing my friends. That is my honest reaction.",sadness,sadness,0.9999970197677612
+"After thinking about it, I feel so lonely about the difficult goodbye.",sadness,sadness,0.9999996423721313
+"At this moment, Right now I am deeply affectionate. It has stayed on my mind.",love,love,0.999980092048645
+"After thinking about it, The way I feel can only be described as loving. I can feel it strongly.",love,love,0.9999831914901733
+"To be honest, Right now I am completely surprised. I can feel it strongly.",surprise,surprise,0.9995900988578796
+I feel incredibly scared about what might happen tomorrow. I can feel it strongly.,fear,fear,0.9999997615814209
+The way I feel can only be described as mad.,anger,anger,0.9988477230072021
+"To be honest, I am surprised because of the shocking update. It has stayed on my mind.",surprise,surprise,0.9999997615814209
+"To be honest, My mood is fond after my family. It has stayed on my mind.",love,love,0.9999936819076538
+"To be honest, I feel deeply uneasy about what might happen tomorrow. I can feel it strongly.",fear,fear,0.9999997615814209
+The way I feel can only be described as joyful.,joy,joy,0.999294638633728
+"Honestly, the upcoming examination makes me feel uneasy. That is my honest reaction.",fear,fear,0.9999995231628418
+"I have to admit, Right now I am incredibly fearful.",fear,fear,0.995975911617279
+"To be honest, Thinking about a thoughtful message leaves me warm. It has stayed on my mind.",love,love,0.9999997615814209
+"At this moment, Right now I am so terrified. It has stayed on my mind.",fear,fear,0.9999489784240723
+I keep feeling afraid whenever I remember the risky journey.,fear,fear,0.999996542930603
+"I have to admit, I feel completely affectionate about our time together. That is my honest reaction.",love,love,0.9999995231628418
+I feel deeply surprised about the unexpected announcement. That is my honest reaction.,surprise,surprise,0.9999998807907104
+"I have to admit, I feel deeply terrified about what might happen tomorrow. That is my honest reaction.",fear,fear,0.9999988079071045
+"To be honest, The way I feel can only be described as annoyed. That is my honest reaction.",anger,anger,0.9998422861099243
+"To be honest, I feel quite resentful about being ignored. That is my honest reaction.",anger,anger,0.9999991655349731
+"After thinking about it, Today I feel fearful; it is connected to the upcoming examination. The feeling is difficult to ignore.",fear,fear,0.9999996423721313
+I am scared because of the sudden noise.,fear,fear,0.9999990463256836
+Right now I am so afraid. It has stayed on my mind.,fear,fear,0.9999855756759644
+"At this moment, The way I feel can only be described as affectionate. That is my honest reaction.",love,love,0.9999294281005859
+"After thinking about it, Thinking about a lonely evening leaves me sad. It has stayed on my mind.",sadness,sadness,0.9999995231628418
+"At this moment, I keep feeling lonely whenever I remember the failed plan.",sadness,sadness,0.9999994039535522
+"After thinking about it, Thinking about the new opportunity leaves me pleased. The feeling is difficult to ignore.",joy,joy,0.9999995231628418
+"At this moment, I am annoyed because of the unnecessary delay.",anger,anger,0.999996542930603
+"After thinking about it, I am unhappy because of the disappointing news.",sadness,sadness,0.9999996423721313
+"At this moment, The way I feel can only be described as sad.",sadness,sadness,0.9900976419448853
+It is hard to hide how anxious I feel about speaking in public. I can feel it strongly.,fear,fear,0.999998927116394
+"At this moment, Today I feel sorrowful; it is connected to the disappointing news. The feeling is difficult to ignore.",sadness,sadness,0.9999986886978149
+"To be honest, I feel genuinely cheerful about the wonderful celebration. That is my honest reaction.",joy,joy,0.9999996423721313
+"To be honest, Thinking about the upcoming examination leaves me nervous. It has stayed on my mind.",fear,fear,0.9999992847442627
+"After thinking about it, I feel completely heartbroken about losing the opportunity. I can feel it strongly.",sadness,sadness,0.9999995231628418
+"I have to admit, Today I feel heartbroken; it is connected to the difficult goodbye. That is my honest reaction.",sadness,sadness,0.9999990463256836
+I keep feeling joyful whenever I remember today's good news. It has stayed on my mind.,joy,joy,0.9999939203262329
+"I have to admit, Honestly, the last-minute change makes me feel startled. That is my honest reaction.",surprise,surprise,0.9999985694885254
+"After thinking about it, Today I feel close; it is connected to my family. That is my honest reaction.",love,love,0.9999953508377075
+"I have to admit, Right now I am truly nervous. That is my honest reaction.",fear,fear,0.9998406171798706
+"After thinking about it, Honestly, the risky journey makes me feel nervous. It has stayed on my mind.",fear,fear,0.9999990463256836
+"To be honest, I feel quite astonished about the unbelievable result. That is my honest reaction.",surprise,surprise,0.9999998807907104
+I feel quite speechless about the last-minute change. It has stayed on my mind.,surprise,surprise,0.9999995231628418
+"After thinking about it, I am lonely because of a lonely evening. The feeling is difficult to ignore.",sadness,sadness,0.9999998807907104
+"To be honest, Right now I am so in disbelief.",surprise,surprise,0.9991801381111145
+It is hard to hide how heartbroken I feel about the failed plan. It has stayed on my mind.,sadness,sadness,0.9999996423721313
+"To be honest, Right now I am completely grateful. I can feel it strongly.",joy,joy,0.9996917247772217
+"I have to admit, I am unexpectedly amazed because of the last-minute change. The feeling is difficult to ignore.",surprise,surprise,0.9999997615814209
+"I have to admit, Thinking about the shocking update leaves me stunned. It has stayed on my mind.",surprise,surprise,0.9999992847442627
+"After thinking about it, Right now I am so caring. The feeling is difficult to ignore.",love,love,0.9999313354492188
+"At this moment, Today I feel astonished; it is connected to the shocking update. The feeling is difficult to ignore.",surprise,surprise,0.9999996423721313
+Right now I am very unhappy. I can feel it strongly.,sadness,sadness,0.9999921321868896
+I am grateful because of the wonderful celebration. It has stayed on my mind.,joy,joy,0.999995231628418
+"After thinking about it, I keep feeling romantic whenever I remember my family. It has stayed on my mind.",love,love,0.9999932050704956
+"After thinking about it, It is hard to hide how mad I feel about the unfair decision. That is my honest reaction.",anger,anger,0.9999991655349731
+"To be honest, The way I feel can only be described as outraged. That is my honest reaction.",anger,anger,0.9997721314430237
+"After thinking about it, I feel deeply speechless about the unexpected announcement. It has stayed on my mind.",surprise,surprise,0.9999992847442627
+My mood is caring after a thoughtful message. The feeling is difficult to ignore.,love,love,0.9999977350234985
+"I have to admit, My mood is unexpectedly amazed after the unbelievable result.",surprise,surprise,0.9999990463256836
+"At this moment, Honestly, a lonely evening makes me feel down. I can feel it strongly.",sadness,sadness,0.9999996423721313
+"After thinking about it, Thinking about my family leaves me loving.",love,love,0.9999902248382568
+"To be honest, Thinking about the disappointing news leaves me unhappy. It has stayed on my mind.",sadness,sadness,0.9999984502792358
+"To be honest, It is hard to hide how warm I feel about my closest friend. I can feel it strongly.",love,love,0.9999980926513672
+"After thinking about it, Honestly, the failed plan makes me feel lonely. The feeling is difficult to ignore.",sadness,sadness,0.9999992847442627
+"To be honest, I feel quite cheerful about the wonderful celebration. It has stayed on my mind.",joy,joy,0.9999988079071045
+My mood is speechless after the surprise visitor. That is my honest reaction.,surprise,surprise,0.9999996423721313
+"To be honest, Right now I am extremely joyful. It has stayed on my mind.",joy,joy,0.9998307228088379
+"At this moment, Right now I am quite resentful. That is my honest reaction.",anger,anger,0.9992725253105164
+"I have to admit, My mood is pleased after meeting my friends. That is my honest reaction.",joy,joy,0.9999979734420776
+I feel so romantic about my family. It has stayed on my mind.,love,love,0.9999980926513672
+"To be honest, I feel quite taken aback about the sudden gift. That is my honest reaction.",surprise,surprise,1.0
+"I have to admit, The way I feel can only be described as caring. I can feel it strongly.",love,love,0.999964714050293
+"At this moment, The way I feel can only be described as down. It has stayed on my mind.",sadness,sadness,0.9999008178710938
+"At this moment, My mood is grateful after finishing the project.",joy,joy,0.9999878406524658
+"At this moment, Today I feel amazed; it is connected to the unbelievable result. It has stayed on my mind.",surprise,surprise,0.9999995231628418
+"I have to admit, Honestly, the shocking update makes me feel speechless. The feeling is difficult to ignore.",surprise,surprise,0.9999988079071045
+"I have to admit, It is hard to hide how joyful I feel about meeting my friends.",joy,joy,0.9999990463256836
+Right now I am deeply gloomy.,sadness,sadness,0.9999337196350098
+"To be honest, Thinking about the uncertain situation leaves me panicked.",fear,fear,0.9999982118606567
+"I have to admit, I am cheerful because of today's good news. That is my honest reaction.",joy,joy,0.9999988079071045
+"I have to admit, Right now I am truly miserable.",sadness,sadness,0.9991737008094788
+"Honestly, the shocking update makes me feel surprised. I can feel it strongly.",surprise,surprise,0.9999991655349731
+"At this moment, My mood is mad after the broken promise. The feeling is difficult to ignore.",anger,anger,0.9999990463256836
+"To be honest, I keep feeling unhappy whenever I remember the failed plan.",sadness,sadness,0.9999997615814209
+I keep feeling devoted whenever I remember a thoughtful message.,love,love,0.9999984502792358
+It is hard to hide how in disbelief I feel about the unbelievable result. It has stayed on my mind.,surprise,surprise,0.9999991655349731
+"At this moment, My mood is in disbelief after the unbelievable result.",surprise,surprise,0.9999983310699463
+"After thinking about it, Thinking about the unfair decision leaves me cross. It has stayed on my mind.",anger,anger,0.9999998807907104
+"I have to admit, I keep feeling lonely whenever I remember a lonely evening. The feeling is difficult to ignore.",sadness,sadness,0.9999998807907104
+"I have to admit, I feel really afraid about the risky journey. That is my honest reaction.",fear,fear,0.9999997615814209
+"After thinking about it, I feel incredibly gloomy about the failed plan. I can feel it strongly.",sadness,sadness,0.9999998807907104
+"I have to admit, Thinking about the person I care about leaves me close. The feeling is difficult to ignore.",love,love,0.9999994039535522
+I am annoyed because of the rude response. That is my honest reaction.,anger,anger,0.9999995231628418
+Today I feel surprised; it is connected to the surprise visitor.,surprise,surprise,0.9999997615814209
+"After thinking about it, It is hard to hide how irritated I feel about the unfair decision. I can feel it strongly.",anger,anger,0.9999992847442627
+"To be honest, The way I feel can only be described as frustrated.",anger,anger,0.9988859295845032
+"I have to admit, I keep feeling cheerful whenever I remember finishing the project. It has stayed on my mind.",joy,joy,0.9999963045120239
+"After thinking about it, Honestly, the difficult goodbye makes me feel gloomy. The feeling is difficult to ignore.",sadness,sadness,0.9999972581863403
+My mood is annoyed after the rude response. It has stayed on my mind.,anger,anger,0.9999995231628418
+"After thinking about it, Honestly, speaking in public makes me feel panicked.",fear,fear,0.999997615814209
+"I have to admit, Thinking about the last-minute change leaves me speechless. I can feel it strongly.",surprise,surprise,0.9999992847442627
+"After thinking about it, I am miserable because of losing the opportunity. I can feel it strongly.",sadness,sadness,0.9999988079071045
+"To be honest, I feel quite affectionate about my closest friend.",love,love,0.9999992847442627
+"At this moment, I keep feeling tearful whenever I remember losing the opportunity. The feeling is difficult to ignore.",sadness,sadness,0.9999991655349731
+"After thinking about it, I keep feeling nervous whenever I remember the upcoming examination. That is my honest reaction.",fear,fear,0.9999996423721313
+"At this moment, It is hard to hide how delighted I feel about today's good news. It has stayed on my mind.",joy,joy,0.9999986886978149
+"I have to admit, Thinking about a lonely evening leaves me down. The feeling is difficult to ignore.",sadness,sadness,0.9999997615814209
+"After thinking about it, My mood is fearful after speaking in public.",fear,fear,0.9999890327453613
+"I have to admit, It is hard to hide how surprised I feel about the sudden gift. It has stayed on my mind.",surprise,surprise,0.9999990463256836
+"To be honest, The way I feel can only be described as fearful. It has stayed on my mind.",fear,fear,0.9999245405197144
+"Honestly, the broken promise makes me feel furious. That is my honest reaction.",anger,anger,0.9999990463256836
+"Honestly, the unbelievable result makes me feel startled. That is my honest reaction.",surprise,surprise,0.9999994039535522
+"After thinking about it, My mood is fond after a thoughtful message. The feeling is difficult to ignore.",love,love,0.9999979734420776
+"After thinking about it, Right now I am really startled. The feeling is difficult to ignore.",surprise,surprise,0.9999474287033081
+"To be honest, Thinking about the disappointing news leaves me miserable. It has stayed on my mind.",sadness,sadness,0.9999980926513672
+My mood is uneasy after the sudden noise. That is my honest reaction.,fear,fear,0.9999992847442627
+"At this moment, Right now I am completely excited. I can feel it strongly.",joy,joy,0.9998321533203125
+"At this moment, Honestly, my great result makes me feel pleased.",joy,joy,0.9999984502792358
+"To be honest, The way I feel can only be described as miserable. That is my honest reaction.",sadness,sadness,0.9999663829803467
+"At this moment, My mood is grateful after the wonderful celebration. It has stayed on my mind.",joy,joy,0.999996542930603
+Thinking about the person I care about leaves me caring. The feeling is difficult to ignore.,love,love,0.9999979734420776
+"I have to admit, My mood is tearful after missing my friends. That is my honest reaction.",sadness,sadness,0.9999984502792358
+"To be honest, I keep feeling excited whenever I remember finishing the project. I can feel it strongly.",joy,joy,0.9999986886978149
+"To be honest, Thinking about the difficult goodbye leaves me miserable. That is my honest reaction.",sadness,sadness,0.9999967813491821
+"After thinking about it, I keep feeling fearful whenever I remember speaking in public. That is my honest reaction.",fear,fear,0.9999988079071045
+Today I feel amazed; it is connected to the surprise visitor.,surprise,surprise,0.9999995231628418
+"I have to admit, I am surprised because of the last-minute change. It has stayed on my mind.",surprise,surprise,0.9999992847442627
+I feel incredibly tender about a thoughtful message. The feeling is difficult to ignore.,love,love,0.9999998807907104
+"I have to admit, Thinking about the unfair decision leaves me angry. That is my honest reaction.",anger,anger,0.9999996423721313
+"I have to admit, The way I feel can only be described as terrified. I can feel it strongly.",fear,fear,0.9999450445175171
+"After thinking about it, It is hard to hide how astonished I feel about the last-minute change. I can feel it strongly.",surprise,surprise,0.9999926090240479
+I keep feeling anxious whenever I remember the sudden noise. That is my honest reaction.,fear,fear,0.9999945163726807
+"I have to admit, I feel extremely fond about my family.",love,love,0.9999957084655762
+I feel completely loving about the kindness I received. I can feel it strongly.,love,love,0.9999997615814209
+"After thinking about it, Thinking about what might happen tomorrow leaves me uneasy. I can feel it strongly.",fear,fear,0.999998927116394
+The way I feel can only be described as shocked.,surprise,surprise,0.9990978240966797
+"To be honest, The way I feel can only be described as disappointed. The feeling is difficult to ignore.",sadness,sadness,0.9999542236328125
+My mood is gloomy after the difficult goodbye. The feeling is difficult to ignore.,sadness,sadness,0.9999995231628418
+"After thinking about it, It is hard to hide how surprised I feel about the sudden gift. The feeling is difficult to ignore.",surprise,surprise,0.9999994039535522
+"I have to admit, I am astonished because of the unbelievable result. I can feel it strongly.",surprise,surprise,0.9999997615814209
+"After thinking about it, It is hard to hide how happy I feel about the new opportunity. I can feel it strongly.",joy,joy,0.9999994039535522
+"To be honest, My mood is afraid after the upcoming examination. That is my honest reaction.",fear,fear,0.9999998807907104
+"I have to admit, I feel so mad about the broken promise. The feeling is difficult to ignore.",anger,anger,0.9999996423721313
+"After thinking about it, The way I feel can only be described as frustrated. It has stayed on my mind.",anger,anger,0.9999403953552246
+Today I feel adored; it is connected to a thoughtful message. That is my honest reaction.,love,love,0.9999984502792358
+"To be honest, Honestly, our time together makes me feel romantic. I can feel it strongly.",love,love,0.9999990463256836
+"To be honest, My mood is afraid after the uncertain situation.",fear,fear,0.999998927116394
+"At this moment, Thinking about the repeated mistake leaves me annoyed. That is my honest reaction.",anger,anger,0.9999970197677612
+"At this moment, My mood is cross after the unnecessary delay. The feeling is difficult to ignore.",anger,anger,0.9999992847442627
+"At this moment, The way I feel can only be described as panicked.",fear,fear,0.9966245889663696
+Today I feel warm; it is connected to my family.,love,love,0.9999946355819702
+"I have to admit, Right now I am completely terrified. It has stayed on my mind.",fear,fear,0.9998542070388794
+"At this moment, Right now I am genuinely warm. That is my honest reaction.",love,love,0.9999610185623169
+"To be honest, My mood is frustrated after the unfair decision. It has stayed on my mind.",anger,anger,0.9999992847442627
+"To be honest, It is hard to hide how enraged I feel about the unnecessary delay.",anger,anger,0.9999966621398926
+"I have to admit, I am adored because of the person I care about. It has stayed on my mind.",love,love,0.9999998807907104
+"At this moment, Today I feel delighted; it is connected to the wonderful celebration. It has stayed on my mind.",joy,joy,0.9999979734420776
+The way I feel can only be described as caring.,love,love,0.9998303651809692
+"After thinking about it, I feel quite outraged about being ignored. That is my honest reaction.",anger,anger,0.9999992847442627
+"At this moment, Honestly, the repeated mistake makes me feel resentful. The feeling is difficult to ignore.",anger,anger,0.9999978542327881
+"To be honest, Today I feel frustrated; it is connected to the rude response.",anger,anger,0.9999992847442627
+My mood is pleased after the new opportunity. I can feel it strongly.,joy,joy,0.9999946355819702
+"After thinking about it, Honestly, the kindness I received makes me feel affectionate. That is my honest reaction.",love,love,0.999998927116394
+"At this moment, Thinking about what might happen tomorrow leaves me panicked. It has stayed on my mind.",fear,fear,0.9999980926513672
+"To be honest, I am astonished because of the unexpected announcement.",surprise,surprise,0.9999985694885254
+"After thinking about it, Today I feel frightened; it is connected to the uncertain situation. That is my honest reaction.",fear,fear,0.9999992847442627
+"I have to admit, My mood is fond after a thoughtful message. I can feel it strongly.",love,love,0.9999988079071045
+"After thinking about it, I am gloomy because of the difficult goodbye. I can feel it strongly.",sadness,sadness,0.9999998807907104
+"To be honest, It is hard to hide how unexpectedly amazed I feel about the last-minute change. That is my honest reaction.",surprise,surprise,0.9999992847442627
+It is hard to hide how tearful I feel about the failed plan. That is my honest reaction.,sadness,sadness,0.9999995231628418
+Right now I am truly pleased. It has stayed on my mind.,joy,joy,0.9995920062065125
+"At this moment, Honestly, the disappointing news makes me feel sorrowful. It has stayed on my mind.",sadness,sadness,0.999996542930603
+"I have to admit, Right now I am genuinely stunned. I can feel it strongly.",surprise,surprise,0.9998332262039185
+"After thinking about it, My mood is outraged after the repeated mistake. It has stayed on my mind.",anger,anger,0.9999951124191284
+"To be honest, My mood is cheerful after my great result. I can feel it strongly.",joy,joy,0.9999954700469971
+"After thinking about it, Honestly, the sudden noise makes me feel panicked. I can feel it strongly.",fear,fear,0.9999889135360718
+I feel very speechless about the unexpected announcement. I can feel it strongly.,surprise,surprise,0.9999996423721313
+"After thinking about it, My mood is excited after finishing the project. The feeling is difficult to ignore.",joy,joy,0.9999977350234985
+"At this moment, I am mad because of the rude response.",anger,anger,0.9999988079071045
+"I have to admit, Right now I am quite terrified. The feeling is difficult to ignore.",fear,fear,0.9997921586036682
+"After thinking about it, I feel incredibly loving about my closest friend. The feeling is difficult to ignore.",love,love,0.9999983310699463
+"I have to admit, My mood is cross after the rude response. It has stayed on my mind.",anger,anger,0.9999994039535522
+Thinking about my family leaves me loving.,love,love,0.9999836683273315
+It is hard to hide how unhappy I feel about losing the opportunity. The feeling is difficult to ignore.,sadness,sadness,0.9999988079071045
+I am devoted because of the kindness I received. I can feel it strongly.,love,love,0.9999998807907104
+"I have to admit, Today I feel caring; it is connected to a thoughtful message. That is my honest reaction.",love,love,0.9999992847442627
+"I have to admit, The way I feel can only be described as happy. The feeling is difficult to ignore.",joy,joy,0.9999587535858154
+Thinking about the difficult goodbye leaves me disappointed. I can feel it strongly.,sadness,sadness,0.9999969005584717
+"At this moment, The way I feel can only be described as stunned. I can feel it strongly.",surprise,surprise,0.999935507774353
+"To be honest, Thinking about the unexpected announcement leaves me surprised. The feeling is difficult to ignore.",surprise,surprise,0.9999998807907104
+"Honestly, the unexpected announcement makes me feel speechless. I can feel it strongly.",surprise,surprise,0.9999994039535522
+I keep feeling pleased whenever I remember today's good news. The feeling is difficult to ignore.,joy,joy,0.9999953508377075
+"I have to admit, I keep feeling stunned whenever I remember the shocking update. It has stayed on my mind.",surprise,surprise,0.9999996423721313
+"To be honest, Honestly, the sudden noise makes me feel terrified.",fear,fear,0.9999935626983643
+"To be honest, Right now I am incredibly scared. I can feel it strongly.",fear,fear,0.9999561309814453
+"At this moment, Today I feel grateful; it is connected to the wonderful celebration. That is my honest reaction.",joy,joy,0.9999985694885254
+"At this moment, Thinking about finishing the project leaves me wonderful. That is my honest reaction.",joy,joy,0.9999983310699463
+"After thinking about it, I feel really surprised about the last-minute change. I can feel it strongly.",surprise,surprise,0.9999991655349731
+"To be honest, I keep feeling angry whenever I remember the unfair decision. That is my honest reaction.",anger,anger,0.9999990463256836
+"To be honest, Right now I am quite warm. It has stayed on my mind.",love,love,0.9999920129776001
+"At this moment, Today I feel pleased; it is connected to meeting my friends. The feeling is difficult to ignore.",joy,joy,0.9999983310699463
+"At this moment, I keep feeling scared whenever I remember speaking in public.",fear,fear,0.9999967813491821
+"I have to admit, Thinking about the wonderful celebration leaves me excited. I can feel it strongly.",joy,joy,0.9999994039535522
+I feel completely cross about the unfair decision. The feeling is difficult to ignore.,anger,anger,0.9999996423721313
+"At this moment, I keep feeling startled whenever I remember the unbelievable result. That is my honest reaction.",surprise,surprise,0.9999998807907104
+"At this moment, My mood is disappointed after the disappointing news. I can feel it strongly.",sadness,sadness,0.9999996423721313
+"To be honest, Today I feel surprised; it is connected to the last-minute change. I can feel it strongly.",surprise,surprise,0.9999984502792358
+"I have to admit, It is hard to hide how romantic I feel about the kindness I received. That is my honest reaction.",love,love,0.9999996423721313
+"Honestly, the unfair decision makes me feel outraged. I can feel it strongly.",anger,anger,0.9999997615814209
+"To be honest, Honestly, missing my friends makes me feel unhappy. It has stayed on my mind.",sadness,sadness,0.9999990463256836
+"To be honest, Thinking about today's good news leaves me happy. The feeling is difficult to ignore.",joy,joy,0.9999985694885254
+"To be honest, I am thrilled because of the wonderful celebration. It has stayed on my mind.",joy,joy,0.999997615814209
+It is hard to hide how affectionate I feel about my closest friend.,love,love,0.9999967813491821
+"At this moment, I keep feeling delighted whenever I remember the new opportunity. It has stayed on my mind.",joy,joy,0.9999983310699463
+"At this moment, Honestly, missing my friends makes me feel down. I can feel it strongly.",sadness,sadness,0.9999977350234985
+"After thinking about it, My mood is devoted after the kindness I received.",love,love,0.9999991655349731
+"I have to admit, The way I feel can only be described as taken aback. I can feel it strongly.",surprise,surprise,0.9999288320541382
+"I have to admit, It is hard to hide how angry I feel about the repeated mistake. That is my honest reaction.",anger,anger,0.9999961853027344
+The way I feel can only be described as sorrowful. That is my honest reaction.,sadness,sadness,0.9998929500579834
+Thinking about losing the opportunity leaves me sad.,sadness,sadness,0.9999821186065674
+"To be honest, I feel genuinely terrified about the upcoming examination. It has stayed on my mind.",fear,fear,1.0
+"To be honest, Right now I am quite tender.",love,love,0.9999550580978394
+I keep feeling speechless whenever I remember the sudden gift. That is my honest reaction.,surprise,surprise,0.9999996423721313
+I keep feeling surprised whenever I remember the sudden gift. I can feel it strongly.,surprise,surprise,0.9999998807907104
+"I have to admit, It is hard to hide how sorrowful I feel about the failed plan.",sadness,sadness,0.9999980926513672
+"To be honest, Today I feel unexpectedly amazed; it is connected to the last-minute change.",surprise,surprise,0.9999986886978149
+I am lonely because of the failed plan. It has stayed on my mind.,sadness,sadness,0.9999998807907104
+"To be honest, Right now I am genuinely miserable. The feeling is difficult to ignore.",sadness,sadness,0.9999656677246094
+"To be honest, It is hard to hide how cheerful I feel about meeting my friends. That is my honest reaction.",joy,joy,0.9999991655349731
+"I have to admit, I feel completely terrified about the uncertain situation. It has stayed on my mind.",fear,fear,0.9999997615814209
+"After thinking about it, I keep feeling frightened whenever I remember the sudden noise. That is my honest reaction.",fear,fear,0.9999970197677612
+I feel completely shocked about the unexpected announcement. That is my honest reaction.,surprise,surprise,1.0
+"After thinking about it, Thinking about finishing the project leaves me cheerful. That is my honest reaction.",joy,joy,0.9999988079071045
+"To be honest, I feel really scared about the upcoming examination. The feeling is difficult to ignore.",fear,fear,1.0
+"At this moment, Thinking about the unexpected announcement leaves me shocked. That is my honest reaction.",surprise,surprise,0.9999998807907104
+"At this moment, The way I feel can only be described as tearful. The feeling is difficult to ignore.",sadness,sadness,0.9999656677246094
+"At this moment, I feel deeply wonderful about my great result. I can feel it strongly.",joy,joy,0.9999982118606567
+My mood is warm after my family. That is my honest reaction.,love,love,0.9999935626983643
+"I have to admit, My mood is close after the kindness I received. It has stayed on my mind.",love,love,0.9999997615814209
+"Honestly, losing the opportunity makes me feel sad.",sadness,sadness,0.9999860525131226
+My mood is wonderful after my great result. The feeling is difficult to ignore.,joy,joy,0.9999815225601196
+"After thinking about it, The way I feel can only be described as resentful. That is my honest reaction.",anger,anger,0.9992349147796631
+"After thinking about it, I feel really annoyed about the unnecessary delay. I can feel it strongly.",anger,anger,0.9999997615814209
+"At this moment, My mood is optimistic after meeting my friends.",joy,joy,0.9999884366989136
+"At this moment, The way I feel can only be described as joyful. It has stayed on my mind.",joy,joy,0.9999210834503174
+It is hard to hide how frustrated I feel about the rude response. That is my honest reaction.,anger,anger,0.9999991655349731
+"I have to admit, I feel so tender about a thoughtful message. The feeling is difficult to ignore.",love,love,0.9999998807907104
+"I have to admit, Honestly, the shocking update makes me feel taken aback. The feeling is difficult to ignore.",surprise,surprise,0.9999992847442627
+"To be honest, Thinking about our time together leaves me romantic. The feeling is difficult to ignore.",love,love,0.9999991655349731
+"After thinking about it, Today I feel gloomy; it is connected to a lonely evening. The feeling is difficult to ignore.",sadness,sadness,0.9999997615814209
+"To be honest, I keep feeling down whenever I remember the failed plan. The feeling is difficult to ignore.",sadness,sadness,0.9999998807907104
+"At this moment, Thinking about the broken promise leaves me enraged. That is my honest reaction.",anger,anger,0.9999992847442627
+"To be honest, Thinking about the unnecessary delay leaves me resentful. That is my honest reaction.",anger,anger,0.9999994039535522
+"At this moment, Thinking about the sudden noise leaves me terrified. I can feel it strongly.",fear,fear,0.9999911785125732
+"I have to admit, The way I feel can only be described as heartbroken.",sadness,sadness,0.9995658993721008
+"At this moment, I am optimistic because of the wonderful celebration. It has stayed on my mind.",joy,joy,0.9999914169311523
+"To be honest, The way I feel can only be described as joyful.",joy,joy,0.9995108842849731
+"I have to admit, Thinking about the unnecessary delay leaves me frustrated. The feeling is difficult to ignore.",anger,anger,0.9999995231628418
+"To be honest, Today I feel affectionate; it is connected to the kindness I received. I can feel it strongly.",love,love,0.9999997615814209
+"To be honest, Today I feel loving; it is connected to the person I care about. I can feel it strongly.",love,love,0.9999996423721313
+"I have to admit, I keep feeling worried whenever I remember speaking in public. The feeling is difficult to ignore.",fear,fear,0.9999994039535522
+Right now I am so resentful.,anger,anger,0.9963976740837097
+"At this moment, The way I feel can only be described as lonely. The feeling is difficult to ignore.",sadness,sadness,0.9999773502349854
+"I have to admit, Today I feel surprised; it is connected to the last-minute change. It has stayed on my mind.",surprise,surprise,0.9999988079071045
+I keep feeling mad whenever I remember the repeated mistake.,anger,anger,0.9999963045120239
+My mood is pleased after the wonderful celebration. It has stayed on my mind.,joy,joy,0.999990701675415
+"At this moment, I feel truly down about missing my friends. I can feel it strongly.",sadness,sadness,0.9999996423721313
+"After thinking about it, I keep feeling caring whenever I remember the kindness I received. The feeling is difficult to ignore.",love,love,0.9999994039535522
+"After thinking about it, Honestly, the surprise visitor makes me feel startled. That is my honest reaction.",surprise,surprise,0.9999997615814209
+"I have to admit, I feel incredibly tender about my family. It has stayed on my mind.",love,love,0.9999990463256836
+"I have to admit, It is hard to hide how unhappy I feel about the difficult goodbye. It has stayed on my mind.",sadness,sadness,0.9999996423721313
+"At this moment, I feel very angry about the unfair decision. It has stayed on my mind.",anger,anger,0.9999995231628418
+"After thinking about it, Right now I am very shocked. It has stayed on my mind.",surprise,surprise,0.9998685121536255
+"To be honest, My mood is furious after the broken promise.",anger,anger,0.9999972581863403
+I keep feeling cross whenever I remember the broken promise. The feeling is difficult to ignore.,anger,anger,0.9999991655349731
+"I have to admit, Thinking about the unbelievable result leaves me stunned. I can feel it strongly.",surprise,surprise,0.9999997615814209
+"I have to admit, Honestly, missing my friends makes me feel gloomy. The feeling is difficult to ignore.",sadness,sadness,0.9999991655349731
+"After thinking about it, I feel quite cheerful about meeting my friends. It has stayed on my mind.",joy,joy,0.9999985694885254
+"At this moment, I feel incredibly heartbroken about the failed plan. It has stayed on my mind.",sadness,sadness,0.9999998807907104
+"At this moment, Right now I am very fond.",love,love,0.9991468191146851
+"I have to admit, The way I feel can only be described as fearful. That is my honest reaction.",fear,fear,0.9998804330825806
+"At this moment, I am tender because of my family. It has stayed on my mind.",love,love,0.99998939037323
+Right now I am genuinely panicked. It has stayed on my mind.,fear,fear,0.999859094619751
+Right now I am very down. I can feel it strongly.,sadness,sadness,0.9999560117721558
+"After thinking about it, The way I feel can only be described as excited. The feeling is difficult to ignore.",joy,joy,0.9999725818634033
+"After thinking about it, I keep feeling miserable whenever I remember the failed plan. It has stayed on my mind.",sadness,sadness,0.9999996423721313
+"After thinking about it, The way I feel can only be described as close. I can feel it strongly.",love,love,0.9999819993972778
+"I have to admit, Today I feel resentful; it is connected to the unnecessary delay. I can feel it strongly.",anger,anger,0.9999982118606567
+"To be honest, My mood is frightened after the upcoming examination. I can feel it strongly.",fear,fear,0.9999998807907104
+"To be honest, It is hard to hide how outraged I feel about the rude response. It has stayed on my mind.",anger,anger,0.9999988079071045
+"After thinking about it, Right now I am truly frustrated. I can feel it strongly.",anger,anger,0.9999455213546753
+"At this moment, I keep feeling terrified whenever I remember the upcoming examination. The feeling is difficult to ignore.",fear,fear,0.9999998807907104
+"I have to admit, It is hard to hide how scared I feel about what might happen tomorrow. That is my honest reaction.",fear,fear,0.9999966621398926
+"I have to admit, It is hard to hide how sorrowful I feel about a lonely evening. It has stayed on my mind.",sadness,sadness,0.9999997615814209
+"After thinking about it, It is hard to hide how frustrated I feel about the unnecessary delay. That is my honest reaction.",anger,anger,0.999998927116394
+"I have to admit, I keep feeling romantic whenever I remember the kindness I received. The feeling is difficult to ignore.",love,love,0.9999997615814209
+"To be honest, Thinking about the kindness I received leaves me devoted. The feeling is difficult to ignore.",love,love,0.9999995231628418
+"After thinking about it, I feel very excited about the new opportunity. The feeling is difficult to ignore.",joy,joy,0.9999996423721313
+"I have to admit, Right now I am quite cross. That is my honest reaction.",anger,anger,0.9997660517692566
+"To be honest, Today I feel disappointed; it is connected to the difficult goodbye. The feeling is difficult to ignore.",sadness,sadness,0.9999997615814209
+Right now I am completely disappointed. It has stayed on my mind.,sadness,sadness,0.9999791383743286
+"I have to admit, I feel quite miserable about the disappointing news. I can feel it strongly.",sadness,sadness,0.9999996423721313
+"To be honest, Honestly, the rude response makes me feel resentful. It has stayed on my mind.",anger,anger,0.999998927116394
+"At this moment, Honestly, meeting my friends makes me feel happy. I can feel it strongly.",joy,joy,0.9999740123748779
+Right now I am truly in disbelief. It has stayed on my mind.,surprise,surprise,0.999914288520813
+"To be honest, I feel genuinely disappointed about the difficult goodbye. I can feel it strongly.",sadness,sadness,0.9999998807907104
+Thinking about my great result leaves me thrilled.,joy,joy,0.9999995231628418
+"At this moment, My mood is nervous after the sudden noise.",fear,fear,0.9999926090240479
+The way I feel can only be described as panicked. It has stayed on my mind.,fear,fear,0.9999456405639648
+"To be honest, It is hard to hide how caring I feel about our time together.",love,love,0.9999988079071045
+"I have to admit, Thinking about the new opportunity leaves me delighted.",joy,joy,0.9999984502792358
+"To be honest, I feel extremely in disbelief about the sudden gift. I can feel it strongly.",surprise,surprise,1.0
+"At this moment, I am down because of a lonely evening. It has stayed on my mind.",sadness,sadness,0.9999998807907104
+"I have to admit, Honestly, our time together makes me feel adored.",love,love,0.9999990463256836
+"At this moment, I feel extremely optimistic about meeting my friends. It has stayed on my mind.",joy,joy,0.9999977350234985
+"At this moment, Today I feel taken aback; it is connected to the shocking update. That is my honest reaction.",surprise,surprise,0.9999997615814209
+"At this moment, It is hard to hide how excited I feel about today's good news. The feeling is difficult to ignore.",joy,joy,0.9999994039535522
+"I have to admit, Thinking about my closest friend leaves me warm. It has stayed on my mind.",love,love,0.9999969005584717
+"I have to admit, Right now I am quite nervous. That is my honest reaction.",fear,fear,0.9998598098754883
+"I have to admit, Today I feel devoted; it is connected to a thoughtful message. That is my honest reaction.",love,love,0.9999991655349731
+"To be honest, My mood is sad after the disappointing news. It has stayed on my mind.",sadness,sadness,0.9999992847442627
+"After thinking about it, It is hard to hide how tender I feel about a thoughtful message. I can feel it strongly.",love,love,0.9999992847442627
+Thinking about the unbelievable result leaves me shocked. I can feel it strongly.,surprise,surprise,0.9999997615814209
+"I have to admit, My mood is fond after the person I care about. The feeling is difficult to ignore.",love,love,0.9999992847442627
+"After thinking about it, I am cheerful because of the new opportunity. The feeling is difficult to ignore.",joy,joy,0.9999974966049194
+"At this moment, Today I feel cheerful; it is connected to finishing the project.",joy,joy,0.9999974966049194
+"After thinking about it, It is hard to hide how angry I feel about the unfair decision.",anger,anger,0.9999973773956299
+I am tearful because of losing the opportunity. I can feel it strongly.,sadness,sadness,0.9999996423721313
+"To be honest, It is hard to hide how astonished I feel about the surprise visitor. That is my honest reaction.",surprise,surprise,0.9999995231628418
+"After thinking about it, Honestly, the difficult goodbye makes me feel sad. That is my honest reaction.",sadness,sadness,0.999990701675415
+"After thinking about it, Honestly, the unfair decision makes me feel annoyed. It has stayed on my mind.",anger,anger,0.9999994039535522
+I keep feeling surprised whenever I remember the surprise visitor.,surprise,surprise,0.9999995231628418
+"After thinking about it, I am terrified because of the risky journey. I can feel it strongly.",fear,fear,0.9999995231628418
+"I have to admit, Thinking about a lonely evening leaves me lonely.",sadness,sadness,0.9999998807907104
+I am delighted because of the wonderful celebration. I can feel it strongly.,joy,joy,0.9999927282333374
+"To be honest, My mood is in disbelief after the surprise visitor. It has stayed on my mind.",surprise,surprise,0.9999995231628418
+"After thinking about it, I feel genuinely affectionate about a thoughtful message. The feeling is difficult to ignore.",love,love,0.9999995231628418
+"To be honest, It is hard to hide how devoted I feel about the person I care about.",love,love,0.9999998807907104
+It is hard to hide how anxious I feel about what might happen tomorrow. It has stayed on my mind.,fear,fear,0.999996542930603
+"After thinking about it, Thinking about being ignored leaves me cross. The feeling is difficult to ignore.",anger,anger,0.9999979734420776
+"To be honest, My mood is unhappy after losing the opportunity.",sadness,sadness,0.9999977350234985
+"I have to admit, Right now I am really stunned. It has stayed on my mind.",surprise,surprise,0.9999476671218872
+"After thinking about it, Right now I am quite affectionate. That is my honest reaction.",love,love,0.9999593496322632
+"I have to admit, I am cheerful because of the wonderful celebration. The feeling is difficult to ignore.",joy,joy,0.9999972581863403
+"To be honest, I feel very grateful about today's good news. That is my honest reaction.",joy,joy,0.9999996423721313
+"I have to admit, Today I feel stunned; it is connected to the shocking update. The feeling is difficult to ignore.",surprise,surprise,0.9999997615814209
+Right now I am truly outraged. I can feel it strongly.,anger,anger,0.9998732805252075
+"After thinking about it, Today I feel surprised; it is connected to the last-minute change.",surprise,surprise,0.9999971389770508
+"I have to admit, Right now I am very loving. That is my honest reaction.",love,love,0.9999825954437256
+"After thinking about it, Right now I am so adored. I can feel it strongly.",love,love,0.9999837875366211
+It is hard to hide how caring I feel about the person I care about. It has stayed on my mind.,love,love,0.9999986886978149
+"At this moment, Right now I am genuinely romantic.",love,love,0.99934321641922
+"At this moment, My mood is fond after the person I care about. It has stayed on my mind.",love,love,0.9999995231628418
+"At this moment, I feel so irritated about the unnecessary delay. The feeling is difficult to ignore.",anger,anger,0.9999996423721313
+"At this moment, It is hard to hide how unexpectedly amazed I feel about the surprise visitor. That is my honest reaction.",surprise,surprise,0.9999997615814209
+"At this moment, Right now I am completely pleased. That is my honest reaction.",joy,joy,0.9996610879898071
+Today I feel frustrated; it is connected to the unfair decision.,anger,anger,0.999998927116394
+"I have to admit, Honestly, the unexpected announcement makes me feel startled. It has stayed on my mind.",surprise,surprise,0.9999992847442627
+"To be honest, I feel very worried about the sudden noise. I can feel it strongly.",fear,fear,0.9999992847442627
+"I have to admit, Thinking about the sudden noise leaves me frightened. I can feel it strongly.",fear,fear,0.9999850988388062
+The way I feel can only be described as cross.,anger,anger,0.9987138509750366
+"To be honest, Today I feel irritated; it is connected to the broken promise. It has stayed on my mind.",anger,anger,0.9999992847442627
+"After thinking about it, Today I feel panicked; it is connected to the uncertain situation. The feeling is difficult to ignore.",fear,fear,0.9999992847442627
+"I have to admit, It is hard to hide how happy I feel about the wonderful celebration.",joy,joy,0.9999991655349731
+"I have to admit, I feel deeply close about a thoughtful message. That is my honest reaction.",love,love,0.9999997615814209
+"At this moment, I feel so tender about my family. The feeling is difficult to ignore.",love,love,0.9999980926513672
+I keep feeling taken aback whenever I remember the last-minute change. I can feel it strongly.,surprise,surprise,0.9999992847442627
+"I have to admit, I am romantic because of the person I care about. It has stayed on my mind.",love,love,0.9999998807907104
+"At this moment, Right now I am deeply taken aback.",surprise,surprise,0.9992250204086304
+"At this moment, I feel completely disappointed about the difficult goodbye.",sadness,sadness,0.9999997615814209
+"I have to admit, It is hard to hide how affectionate I feel about the person I care about. I can feel it strongly.",love,love,0.9999995231628418
+"I have to admit, I feel deeply angry about the unfair decision. The feeling is difficult to ignore.",anger,anger,0.9999994039535522
+"After thinking about it, Thinking about finishing the project leaves me pleased. That is my honest reaction.",joy,joy,0.9999991655349731
+"I have to admit, Thinking about the new opportunity leaves me happy. That is my honest reaction.",joy,joy,0.9999996423721313
+"To be honest, My mood is surprised after the unexpected announcement. The feeling is difficult to ignore.",surprise,surprise,0.9999995231628418
+"After thinking about it, Thinking about the sudden noise leaves me frightened.",fear,fear,0.999944806098938
+My mood is disappointed after losing the opportunity. The feeling is difficult to ignore.,sadness,sadness,0.9999982118606567
+"After thinking about it, I am heartbroken because of a lonely evening.",sadness,sadness,0.9999998807907104
+My mood is cross after being ignored. That is my honest reaction.,anger,anger,0.9999973773956299
+"I have to admit, Right now I am very astonished. I can feel it strongly.",surprise,surprise,0.9969158172607422
+"After thinking about it, I am wonderful because of finishing the project. It has stayed on my mind.",joy,joy,0.9999983310699463
+"To be honest, I am taken aback because of the last-minute change. I can feel it strongly.",surprise,surprise,0.9999996423721313
+My mood is pleased after the new opportunity.,joy,joy,0.9999890327453613
+Today I feel enraged; it is connected to the unnecessary delay. That is my honest reaction.,anger,anger,0.9999996423721313
+"At this moment, Honestly, the broken promise makes me feel outraged. That is my honest reaction.",anger,anger,0.9999986886978149
+"At this moment, Right now I am incredibly enraged. I can feel it strongly.",anger,anger,0.9998966455459595
+"At this moment, It is hard to hide how fond I feel about our time together. That is my honest reaction.",love,love,0.9999988079071045
+"After thinking about it, I feel genuinely warm about my closest friend.",love,love,0.9999990463256836
+"After thinking about it, I feel so tearful about the disappointing news. The feeling is difficult to ignore.",sadness,sadness,0.9999997615814209
+"I have to admit, Today I feel grateful; it is connected to meeting my friends. I can feel it strongly.",joy,joy,0.9999977350234985
+"After thinking about it, I keep feeling optimistic whenever I remember my great result. It has stayed on my mind.",joy,joy,0.9999967813491821
+"At this moment, Right now I am genuinely resentful. The feeling is difficult to ignore.",anger,anger,0.9995600581169128
+"I have to admit, I feel so irritated about the unnecessary delay. I can feel it strongly.",anger,anger,0.9999996423721313
+"After thinking about it, Thinking about the wonderful celebration leaves me grateful. The feeling is difficult to ignore.",joy,joy,0.9999992847442627
+"Honestly, a thoughtful message makes me feel caring. That is my honest reaction.",love,love,0.9999991655349731
+"I have to admit, My mood is stunned after the surprise visitor. I can feel it strongly.",surprise,surprise,0.9999997615814209
+"Honestly, speaking in public makes me feel anxious. It has stayed on my mind.",fear,fear,0.9999978542327881
+"To be honest, Today I feel disappointed; it is connected to losing the opportunity.",sadness,sadness,0.9999994039535522
+I am annoyed because of the rude response. It has stayed on my mind.,anger,anger,0.9999995231628418
+"After thinking about it, Today I feel unhappy; it is connected to the difficult goodbye. It has stayed on my mind.",sadness,sadness,0.9999991655349731
+"I have to admit, I am panicked because of the upcoming examination. That is my honest reaction.",fear,fear,1.0
+"After thinking about it, I keep feeling terrified whenever I remember the upcoming examination. The feeling is difficult to ignore.",fear,fear,0.9999998807907104
+"After thinking about it, Today I feel cross; it is connected to being ignored. The feeling is difficult to ignore.",anger,anger,0.9999982118606567
+"After thinking about it, Thinking about today's good news leaves me happy. It has stayed on my mind.",joy,joy,0.9999986886978149
+"Honestly, the unexpected announcement makes me feel startled. It has stayed on my mind.",surprise,surprise,0.9999994039535522
+"At this moment, Thinking about the wonderful celebration leaves me happy. I can feel it strongly.",joy,joy,0.9999990463256836
+"At this moment, It is hard to hide how devoted I feel about the kindness I received.",love,love,0.9999995231628418
+"At this moment, Today I feel terrified; it is connected to speaking in public. That is my honest reaction.",fear,fear,0.999998927116394
+"After thinking about it, Today I feel terrified; it is connected to the upcoming examination. I can feel it strongly.",fear,fear,0.9999997615814209
+"After thinking about it, Honestly, the person I care about makes me feel affectionate. It has stayed on my mind.",love,love,0.9999994039535522
+"I have to admit, Today I feel worried; it is connected to the uncertain situation. The feeling is difficult to ignore.",fear,fear,0.9999995231628418
+"At this moment, It is hard to hide how miserable I feel about losing the opportunity. The feeling is difficult to ignore.",sadness,sadness,0.9999980926513672
+"To be honest, Honestly, my closest friend makes me feel affectionate. It has stayed on my mind.",love,love,0.9999978542327881
+"I have to admit, Thinking about the rude response leaves me resentful. I can feel it strongly.",anger,anger,0.999998927116394
+"After thinking about it, My mood is adored after our time together. That is my honest reaction.",love,love,0.9999953508377075
+"To be honest, I feel incredibly loving about my family. I can feel it strongly.",love,love,0.9999986886978149
+My mood is nervous after the risky journey. I can feel it strongly.,fear,fear,0.9999972581863403
+"To be honest, I feel really thrilled about today's good news. I can feel it strongly.",joy,joy,0.9999996423721313
+"At this moment, Thinking about the risky journey leaves me nervous. It has stayed on my mind.",fear,fear,0.9999985694885254
+"To be honest, It is hard to hide how miserable I feel about missing my friends. It has stayed on my mind.",sadness,sadness,0.9999990463256836
+"To be honest, I keep feeling joyful whenever I remember meeting my friends. I can feel it strongly.",joy,joy,0.9999957084655762
+"To be honest, Right now I am completely in disbelief. I can feel it strongly.",surprise,surprise,0.9998038411140442
+"After thinking about it, Honestly, the shocking update makes me feel amazed.",surprise,surprise,0.9999991655349731
+"I have to admit, I keep feeling miserable whenever I remember a lonely evening. The feeling is difficult to ignore.",sadness,sadness,0.9999998807907104
+"To be honest, It is hard to hide how wonderful I feel about the new opportunity. It has stayed on my mind.",joy,joy,0.9999992847442627
+"I have to admit, I keep feeling grateful whenever I remember my great result. I can feel it strongly.",joy,joy,0.9999970197677612
+"After thinking about it, I keep feeling afraid whenever I remember the risky journey. The feeling is difficult to ignore.",fear,fear,0.9999988079071045
+"To be honest, Thinking about the difficult goodbye leaves me unhappy. The feeling is difficult to ignore.",sadness,sadness,0.9999972581863403
+"I have to admit, Today I feel stunned; it is connected to the shocking update.",surprise,surprise,0.9999995231628418
+"After thinking about it, It is hard to hide how loving I feel about the person I care about. That is my honest reaction.",love,love,0.9999995231628418
+"After thinking about it, Honestly, my great result makes me feel wonderful.",joy,joy,0.9999985694885254
+"At this moment, Thinking about the difficult goodbye leaves me heartbroken.",sadness,sadness,0.9999977350234985
+"After thinking about it, Today I feel annoyed; it is connected to the rude response.",anger,anger,0.9999990463256836
+"After thinking about it, I am surprised because of the unbelievable result.",surprise,surprise,0.9999994039535522
+"After thinking about it, My mood is startled after the unexpected announcement. The feeling is difficult to ignore.",surprise,surprise,0.9999995231628418
+"I have to admit, Honestly, the rude response makes me feel angry. I can feel it strongly.",anger,anger,0.9999983310699463
+"After thinking about it, Today I feel optimistic; it is connected to meeting my friends. That is my honest reaction.",joy,joy,0.9999985694885254
+"I have to admit, Honestly, the difficult goodbye makes me feel gloomy. I can feel it strongly.",sadness,sadness,0.9999980926513672
+"I have to admit, I feel deeply annoyed about being ignored. It has stayed on my mind.",anger,anger,0.9999990463256836
+"At this moment, I feel quite mad about the broken promise. It has stayed on my mind.",anger,anger,0.9999995231628418
+"After thinking about it, The way I feel can only be described as tender. I can feel it strongly.",love,love,0.9999853372573853
+"At this moment, It is hard to hide how furious I feel about being ignored. It has stayed on my mind.",anger,anger,0.9999988079071045
+"At this moment, It is hard to hide how anxious I feel about the risky journey. That is my honest reaction.",fear,fear,0.9999977350234985
+"I have to admit, Thinking about the last-minute change leaves me unexpectedly amazed. That is my honest reaction.",surprise,surprise,0.9999997615814209
+"After thinking about it, Honestly, a lonely evening makes me feel sad.",sadness,sadness,0.9999991655349731
+"To be honest, I keep feeling in disbelief whenever I remember the unexpected announcement.",surprise,surprise,0.9999978542327881
+"I have to admit, The way I feel can only be described as adored. I can feel it strongly.",love,love,0.9999876022338867
+"After thinking about it, Right now I am genuinely afraid. The feeling is difficult to ignore.",fear,fear,0.9998200535774231
+"After thinking about it, Today I feel amazed; it is connected to the last-minute change. That is my honest reaction.",surprise,surprise,0.9999990463256836
+"After thinking about it, Right now I am truly terrified. The feeling is difficult to ignore.",fear,fear,0.999616265296936
+I am joyful because of the wonderful celebration. It has stayed on my mind.,joy,joy,0.9999885559082031
+"To be honest, My mood is panicked after the upcoming examination. I can feel it strongly.",fear,fear,0.9999997615814209
+"I have to admit, Honestly, meeting my friends makes me feel pleased. It has stayed on my mind.",joy,joy,0.9999979734420776
+"At this moment, My mood is miserable after the difficult goodbye. I can feel it strongly.",sadness,sadness,0.9999990463256836
+Today I feel fearful; it is connected to what might happen tomorrow. I can feel it strongly.,fear,fear,0.999997615814209
+"I have to admit, Honestly, meeting my friends makes me feel cheerful. It has stayed on my mind.",joy,joy,0.9999897480010986
+"At this moment, I am shocked because of the last-minute change. I can feel it strongly.",surprise,surprise,0.9999988079071045
+"To be honest, I feel quite devoted about my closest friend. The feeling is difficult to ignore.",love,love,0.9999983310699463
+"To be honest, It is hard to hide how tearful I feel about missing my friends. That is my honest reaction.",sadness,sadness,0.9999991655349731
+My mood is tearful after the disappointing news. I can feel it strongly.,sadness,sadness,0.9999995231628418
+"To be honest, My mood is romantic after my closest friend. It has stayed on my mind.",love,love,0.9999970197677612
+Today I feel terrified; it is connected to the upcoming examination. It has stayed on my mind.,fear,fear,0.9999998807907104
+"I have to admit, Thinking about being ignored leaves me enraged.",anger,anger,0.999995231628418
+"I have to admit, Honestly, the sudden gift makes me feel shocked. That is my honest reaction.",surprise,surprise,0.9999998807907104
+"After thinking about it, It is hard to hide how enraged I feel about the unnecessary delay.",anger,anger,0.9999967813491821
+"After thinking about it, Honestly, speaking in public makes me feel frightened. The feeling is difficult to ignore.",fear,fear,0.9999980926513672
+"To be honest, I keep feeling adored whenever I remember my closest friend. The feeling is difficult to ignore.",love,love,0.9999978542327881
+"Honestly, the difficult goodbye makes me feel gloomy. It has stayed on my mind.",sadness,sadness,0.9999979734420776
+Thinking about the rude response leaves me outraged. The feeling is difficult to ignore.,anger,anger,0.999998927116394
+"After thinking about it, Honestly, the shocking update makes me feel astonished. That is my honest reaction.",surprise,surprise,0.999998927116394
+"To be honest, The way I feel can only be described as outraged. The feeling is difficult to ignore.",anger,anger,0.999705970287323
+"After thinking about it, The way I feel can only be described as speechless. That is my honest reaction.",surprise,surprise,0.9997072815895081
+"To be honest, Today I feel irritated; it is connected to the unnecessary delay. It has stayed on my mind.",anger,anger,0.9999996423721313
+"After thinking about it, My mood is uneasy after the risky journey. The feeling is difficult to ignore.",fear,fear,0.9999978542327881
+"After thinking about it, Right now I am genuinely annoyed.",anger,anger,0.995166540145874
+"To be honest, I am fond because of my family.",love,love,0.9999940395355225
+"Honestly, my closest friend makes me feel fond.",love,love,0.9999815225601196
+Today I feel surprised; it is connected to the shocking update. The feeling is difficult to ignore.,surprise,surprise,0.9999998807907104
+I feel so afraid about the risky journey.,fear,fear,0.9999992847442627
+I am pleased because of the new opportunity. It has stayed on my mind.,joy,joy,0.9999935626983643
+"After thinking about it, I feel completely frustrated about the rude response. It has stayed on my mind.",anger,anger,0.9999996423721313
+"I have to admit, Thinking about the failed plan leaves me sad. I can feel it strongly.",sadness,sadness,0.9999983310699463
+I feel really frightened about the uncertain situation.,fear,fear,0.9999996423721313
+"After thinking about it, Today I feel thrilled; it is connected to the wonderful celebration.",joy,joy,0.9999992847442627
+"To be honest, Thinking about the broken promise leaves me frustrated.",anger,anger,0.9999980926513672
+"I have to admit, My mood is miserable after missing my friends. It has stayed on my mind.",sadness,sadness,0.9999980926513672
+"At this moment, My mood is fearful after what might happen tomorrow. The feeling is difficult to ignore.",fear,fear,0.9999951124191284
+"At this moment, My mood is sorrowful after the difficult goodbye.",sadness,sadness,0.9999947547912598
+"After thinking about it, Right now I am quite angry.",anger,anger,0.9981100559234619
+"At this moment, Today I feel nervous; it is connected to the upcoming examination. It has stayed on my mind.",fear,fear,0.9999996423721313
+"At this moment, Right now I am so loving. The feeling is difficult to ignore.",love,love,0.9999712705612183
+"I have to admit, I keep feeling devoted whenever I remember a thoughtful message. The feeling is difficult to ignore.",love,love,0.9999994039535522
+"I have to admit, Thinking about the unbelievable result leaves me speechless.",surprise,surprise,0.9999988079071045
+"I have to admit, I am adored because of the kindness I received. The feeling is difficult to ignore.",love,love,0.9999997615814209
+My mood is terrified after the sudden noise. The feeling is difficult to ignore.,fear,fear,0.9999985694885254
+"At this moment, Right now I am really panicked. The feeling is difficult to ignore.",fear,fear,0.9998655319213867
+"I have to admit, Right now I am so speechless.",surprise,surprise,0.9960481524467468
+"To be honest, The way I feel can only be described as surprised. I can feel it strongly.",surprise,surprise,0.9996782541275024
+Thinking about the sudden noise leaves me uneasy. The feeling is difficult to ignore.,fear,fear,0.9999936819076538
+"I have to admit, Honestly, a lonely evening makes me feel sorrowful. I can feel it strongly.",sadness,sadness,0.9999997615814209
+"After thinking about it, I feel quite fond about our time together. The feeling is difficult to ignore.",love,love,0.9999991655349731
+"At this moment, It is hard to hide how sad I feel about the failed plan.",sadness,sadness,0.9999985694885254
+"After thinking about it, Right now I am deeply loving. I can feel it strongly.",love,love,0.9999701976776123
+"To be honest, Right now I am deeply sad. The feeling is difficult to ignore.",sadness,sadness,0.9995697140693665
+It is hard to hide how panicked I feel about the uncertain situation. That is my honest reaction.,fear,fear,0.9999995231628418
+"After thinking about it, Today I feel outraged; it is connected to the repeated mistake. I can feel it strongly.",anger,anger,0.9999982118606567
+Right now I am so optimistic.,joy,joy,0.9957913160324097
+It is hard to hide how outraged I feel about the repeated mistake. It has stayed on my mind.,anger,anger,0.9999971389770508
+"After thinking about it, Honestly, a thoughtful message makes me feel caring. The feeling is difficult to ignore.",love,love,0.9999991655349731
+"After thinking about it, Honestly, the sudden noise makes me feel nervous. That is my honest reaction.",fear,fear,0.9999901056289673
+"After thinking about it, Today I feel caring; it is connected to my family. That is my honest reaction.",love,love,0.999994158744812
+"To be honest, My mood is cheerful after meeting my friends. It has stayed on my mind.",joy,joy,0.9999892711639404
+"I have to admit, Honestly, the broken promise makes me feel frustrated.",anger,anger,0.9999957084655762
+"At this moment, I am startled because of the unbelievable result. It has stayed on my mind.",surprise,surprise,0.9999998807907104
+"At this moment, Thinking about the unbelievable result leaves me startled. That is my honest reaction.",surprise,surprise,0.9999997615814209
+"At this moment, I feel genuinely frightened about the upcoming examination. The feeling is difficult to ignore.",fear,fear,0.9999998807907104
+"To be honest, Right now I am really gloomy. The feeling is difficult to ignore.",sadness,sadness,0.9999693632125854
+"To be honest, Today I feel close; it is connected to a thoughtful message. It has stayed on my mind.",love,love,0.9999996423721313
+Thinking about the unbelievable result leaves me stunned. I can feel it strongly.,surprise,surprise,0.9999998807907104
+"I have to admit, I am unhappy because of a lonely evening. The feeling is difficult to ignore.",sadness,sadness,1.0
+"To be honest, Right now I am deeply surprised.",surprise,surprise,0.9803000688552856
+"To be honest, Honestly, the disappointing news makes me feel tearful.",sadness,sadness,0.9999980926513672
+"I have to admit, The way I feel can only be described as scared. I can feel it strongly.",fear,fear,0.9999724626541138
+"I have to admit, Right now I am really tearful.",sadness,sadness,0.9985561966896057
+"At this moment, I am frustrated because of the broken promise. It has stayed on my mind.",anger,anger,0.9999992847442627
+The way I feel can only be described as unhappy. It has stayed on my mind.,sadness,sadness,0.9999855756759644
+"At this moment, It is hard to hide how scared I feel about the risky journey. That is my honest reaction.",fear,fear,0.9999988079071045
+"After thinking about it, I keep feeling delighted whenever I remember the wonderful celebration. It has stayed on my mind.",joy,joy,0.9999971389770508
+"I have to admit, It is hard to hide how angry I feel about the rude response. I can feel it strongly.",anger,anger,0.9999986886978149
+"At this moment, Honestly, the broken promise makes me feel frustrated. The feeling is difficult to ignore.",anger,anger,0.9999992847442627
+"To be honest, Right now I am really astonished. The feeling is difficult to ignore.",surprise,surprise,0.9996367692947388
+"At this moment, It is hard to hide how disappointed I feel about the disappointing news.",sadness,sadness,0.9999995231628418
+"After thinking about it, Right now I am so disappointed.",sadness,sadness,0.9995587468147278
+Today I feel adored; it is connected to my closest friend. I can feel it strongly.,love,love,0.999976396560669
+I am speechless because of the surprise visitor. It has stayed on my mind.,surprise,surprise,0.9999998807907104
+My mood is mad after being ignored. I can feel it strongly.,anger,anger,0.9999988079071045
+I keep feeling unhappy whenever I remember the failed plan. It has stayed on my mind.,sadness,sadness,0.9999998807907104
+I feel deeply fond about my family.,love,love,0.999995231628418
+"At this moment, I keep feeling happy whenever I remember my great result. It has stayed on my mind.",joy,joy,0.9999978542327881
+"After thinking about it, I keep feeling tearful whenever I remember the failed plan. That is my honest reaction.",sadness,sadness,0.9999997615814209
+"I have to admit, I keep feeling amazed whenever I remember the surprise visitor. I can feel it strongly.",surprise,surprise,0.9999996423721313
+"To be honest, I keep feeling astonished whenever I remember the surprise visitor. It has stayed on my mind.",surprise,surprise,0.9999995231628418
+I feel extremely loving about our time together. The feeling is difficult to ignore.,love,love,0.9999966621398926
+"At this moment, I am loving because of a thoughtful message. It has stayed on my mind.",love,love,0.9999996423721313
+"After thinking about it, My mood is optimistic after meeting my friends. I can feel it strongly.",joy,joy,0.9999904632568359
+"To be honest, Today I feel thrilled; it is connected to my great result. The feeling is difficult to ignore.",joy,joy,0.9999988079071045
+"After thinking about it, Thinking about speaking in public leaves me scared. I can feel it strongly.",fear,fear,0.9999986886978149
+"After thinking about it, I keep feeling grateful whenever I remember my great result. I can feel it strongly.",joy,joy,0.9999979734420776
+I am adored because of my closest friend.,love,love,0.9999972581863403
+"I have to admit, I am angry because of being ignored. I can feel it strongly.",anger,anger,0.9999991655349731
+"I have to admit, I am fearful because of the risky journey.",fear,fear,0.9999954700469971
+"To be honest, Today I feel astonished; it is connected to the surprise visitor. The feeling is difficult to ignore.",surprise,surprise,0.9999997615814209
+"I have to admit, I feel really loving about the person I care about. That is my honest reaction.",love,love,0.9999997615814209
+"At this moment, My mood is unexpectedly amazed after the surprise visitor.",surprise,surprise,0.9999992847442627
+I feel so sad about the difficult goodbye. I can feel it strongly.,sadness,sadness,0.9999998807907104
+"At this moment, I am tearful because of the failed plan. I can feel it strongly.",sadness,sadness,0.9999998807907104
+"To be honest, My mood is down after the difficult goodbye. It has stayed on my mind.",sadness,sadness,0.9999992847442627
+"I have to admit, I keep feeling caring whenever I remember the person I care about. The feeling is difficult to ignore.",love,love,0.9999986886978149
+"To be honest, Honestly, the upcoming examination makes me feel fearful. I can feel it strongly.",fear,fear,0.9999997615814209
+"To be honest, Today I feel close; it is connected to my closest friend.",love,love,0.9999986886978149
+"At this moment, My mood is enraged after being ignored. It has stayed on my mind.",anger,anger,0.9999979734420776
+"I have to admit, Thinking about a lonely evening leaves me disappointed. That is my honest reaction.",sadness,sadness,0.9999998807907104
+"I have to admit, I am optimistic because of the new opportunity. The feeling is difficult to ignore.",joy,joy,0.9999964237213135
+"To be honest, Today I feel warm; it is connected to the person I care about. It has stayed on my mind.",love,love,0.9999997615814209
+"To be honest, I feel genuinely wonderful about the wonderful celebration. It has stayed on my mind.",joy,joy,0.9999992847442627
+"At this moment, I am devoted because of the person I care about. The feeling is difficult to ignore.",love,love,0.9999996423721313
+"At this moment, I feel quite angry about the unfair decision.",anger,anger,0.9999988079071045
+Today I feel afraid; it is connected to what might happen tomorrow. The feeling is difficult to ignore.,fear,fear,0.9999967813491821
+"At this moment, Thinking about the shocking update leaves me speechless.",surprise,surprise,0.9999983310699463
+"After thinking about it, It is hard to hide how cheerful I feel about my great result.",joy,joy,0.999998927116394
+"To be honest, It is hard to hide how cheerful I feel about the new opportunity.",joy,joy,0.9999984502792358
+"After thinking about it, I feel really unexpectedly amazed about the unexpected announcement. It has stayed on my mind.",surprise,surprise,0.9999998807907104
+"At this moment, Right now I am incredibly sad. It has stayed on my mind.",sadness,sadness,0.9998273253440857
+It is hard to hide how devoted I feel about my closest friend.,love,love,0.9999967813491821
+"I have to admit, Thinking about what might happen tomorrow leaves me uneasy. I can feel it strongly.",fear,fear,0.999998927116394
+I feel very angry about the unnecessary delay. It has stayed on my mind.,anger,anger,0.9999996423721313
+"I have to admit, Right now I am so unexpectedly amazed. It has stayed on my mind.",surprise,surprise,0.9999750852584839
+I keep feeling affectionate whenever I remember our time together. The feeling is difficult to ignore.,love,love,0.9999964237213135
+"I have to admit, It is hard to hide how unhappy I feel about the failed plan. It has stayed on my mind.",sadness,sadness,0.9999996423721313
+The way I feel can only be described as anxious.,fear,fear,0.9988011121749878
+"At this moment, It is hard to hide how unexpectedly amazed I feel about the shocking update. The feeling is difficult to ignore.",surprise,surprise,0.9999996423721313
+"At this moment, My mood is furious after the unfair decision. I can feel it strongly.",anger,anger,0.9999995231628418
+"To be honest, It is hard to hide how cross I feel about the rude response. I can feel it strongly.",anger,anger,0.9999992847442627
+"At this moment, I am angry because of the unfair decision. I can feel it strongly.",anger,anger,0.9999995231628418
+I feel extremely close about my closest friend. I can feel it strongly.,love,love,0.999996542930603
+"To be honest, My mood is disappointed after losing the opportunity. It has stayed on my mind.",sadness,sadness,0.9999983310699463
+"I have to admit, It is hard to hide how resentful I feel about the broken promise.",anger,anger,0.999984622001648
+"To be honest, Thinking about our time together leaves me caring.",love,love,0.9999988079071045
+"After thinking about it, I feel deeply fond about the person I care about.",love,love,0.9999998807907104
+"After thinking about it, I keep feeling joyful whenever I remember my great result. That is my honest reaction.",joy,joy,0.9999980926513672
+"Honestly, the upcoming examination makes me feel anxious. I can feel it strongly.",fear,fear,0.9999986886978149
+"At this moment, My mood is pleased after meeting my friends. I can feel it strongly.",joy,joy,0.9999948740005493
+"At this moment, My mood is lonely after the difficult goodbye. It has stayed on my mind.",sadness,sadness,0.9999991655349731
+I feel really startled about the unexpected announcement. I can feel it strongly.,surprise,surprise,1.0
+"At this moment, My mood is miserable after the difficult goodbye. That is my honest reaction.",sadness,sadness,0.9999982118606567
+"After thinking about it, Right now I am quite amazed. The feeling is difficult to ignore.",surprise,surprise,0.9998844861984253
+"After thinking about it, Honestly, my closest friend makes me feel loving.",love,love,0.9999867677688599
+"I have to admit, Honestly, missing my friends makes me feel sorrowful.",sadness,sadness,0.9999927282333374
+"After thinking about it, The way I feel can only be described as uneasy. I can feel it strongly.",fear,fear,0.9999735355377197
+"I have to admit, I am enraged because of the broken promise.",anger,anger,0.999997615814209
+"I have to admit, My mood is heartbroken after the failed plan.",sadness,sadness,0.9999980926513672
+"To be honest, I feel extremely sorrowful about a lonely evening.",sadness,sadness,0.9999998807907104
+"To be honest, I keep feeling outraged whenever I remember the unnecessary delay. That is my honest reaction.",anger,anger,0.9999991655349731
+"At this moment, I keep feeling frightened whenever I remember the sudden noise. The feeling is difficult to ignore.",fear,fear,0.9999964237213135
+"After thinking about it, Today I feel delighted; it is connected to my great result. The feeling is difficult to ignore.",joy,joy,0.9999977350234985
+"At this moment, It is hard to hide how thrilled I feel about meeting my friends. The feeling is difficult to ignore.",joy,joy,0.9999991655349731
+"I have to admit, I feel incredibly unexpectedly amazed about the unbelievable result. I can feel it strongly.",surprise,surprise,1.0
+I keep feeling miserable whenever I remember the failed plan. It has stayed on my mind.,sadness,sadness,0.9999997615814209
+My mood is irritated after the unfair decision.,anger,anger,0.9999985694885254
+"After thinking about it, Thinking about the unexpected announcement leaves me astonished. It has stayed on my mind.",surprise,surprise,0.9999997615814209
+"To be honest, It is hard to hide how joyful I feel about my great result. It has stayed on my mind.",joy,joy,0.9999982118606567
+"After thinking about it, Right now I am truly devoted. I can feel it strongly.",love,love,0.9999614953994751
+"To be honest, Right now I am incredibly terrified. That is my honest reaction.",fear,fear,0.9999258518218994
+"At this moment, I keep feeling shocked whenever I remember the unbelievable result.",surprise,surprise,0.9999992847442627
+"After thinking about it, Honestly, a thoughtful message makes me feel loving.",love,love,0.999998927116394
+"At this moment, Today I feel excited; it is connected to the wonderful celebration.",joy,joy,0.999998927116394
+"To be honest, It is hard to hide how happy I feel about today's good news. It has stayed on my mind.",joy,joy,0.9999991655349731
+"I have to admit, Thinking about the disappointing news leaves me sad.",sadness,sadness,0.9999935626983643
+I feel incredibly worried about speaking in public.,fear,fear,0.9999986886978149
+"To be honest, Honestly, the repeated mistake makes me feel enraged. It has stayed on my mind.",anger,anger,0.999998927116394
+"At this moment, The way I feel can only be described as panicked. I can feel it strongly.",fear,fear,0.9998970031738281
+"I have to admit, Honestly, my great result makes me feel grateful.",joy,joy,0.9999980926513672
+Right now I am really grateful. It has stayed on my mind.,joy,joy,0.9998840093612671
+"I have to admit, I keep feeling in disbelief whenever I remember the surprise visitor. It has stayed on my mind.",surprise,surprise,0.9999995231628418
+Right now I am incredibly scared. That is my honest reaction.,fear,fear,0.9999643564224243
+"At this moment, The way I feel can only be described as wonderful.",joy,joy,0.9999083280563354
+It is hard to hide how heartbroken I feel about the failed plan. The feeling is difficult to ignore.,sadness,sadness,0.9999997615814209
+"At this moment, The way I feel can only be described as astonished. I can feel it strongly.",surprise,surprise,0.9994794726371765
+Today I feel amazed; it is connected to the last-minute change. That is my honest reaction.,surprise,surprise,0.9999994039535522
+"I have to admit, I feel deeply thrilled about my great result. The feeling is difficult to ignore.",joy,joy,0.9999992847442627
+I feel truly afraid about the uncertain situation.,fear,fear,0.9999996423721313
+"To be honest, I am loving because of my family. I can feel it strongly.",love,love,0.9999901056289673
+"After thinking about it, Today I feel disappointed; it is connected to a lonely evening.",sadness,sadness,0.9999995231628418
+"I have to admit, I feel deeply stunned about the sudden gift. It has stayed on my mind.",surprise,surprise,0.9999998807907104
+"After thinking about it, It is hard to hide how anxious I feel about the uncertain situation. That is my honest reaction.",fear,fear,0.9999985694885254
+"To be honest, It is hard to hide how grateful I feel about today's good news. The feeling is difficult to ignore.",joy,joy,0.9999986886978149
+"I have to admit, Today I feel unhappy; it is connected to missing my friends. That is my honest reaction.",sadness,sadness,0.999998927116394
+It is hard to hide how down I feel about losing the opportunity. The feeling is difficult to ignore.,sadness,sadness,0.9999982118606567
+"To be honest, Right now I am truly pleased. The feeling is difficult to ignore.",joy,joy,0.9996622800827026
+My mood is devoted after my closest friend. I can feel it strongly.,love,love,0.9999823570251465
+"I have to admit, The way I feel can only be described as shocked. I can feel it strongly.",surprise,surprise,0.9997546076774597
+"At this moment, Right now I am deeply afraid. It has stayed on my mind.",fear,fear,0.9999632835388184
+"At this moment, It is hard to hide how joyful I feel about my great result. The feeling is difficult to ignore.",joy,joy,0.9999978542327881
+"After thinking about it, I keep feeling annoyed whenever I remember being ignored. The feeling is difficult to ignore.",anger,anger,0.999998927116394
+"I have to admit, It is hard to hide how enraged I feel about the rude response. That is my honest reaction.",anger,anger,0.9999990463256836
+"I have to admit, I feel so enraged about the broken promise. It has stayed on my mind.",anger,anger,0.9999997615814209
+"I have to admit, My mood is panicked after the sudden noise. The feeling is difficult to ignore.",fear,fear,0.9999974966049194
+"After thinking about it, Right now I am extremely heartbroken. I can feel it strongly.",sadness,sadness,0.9999687671661377
+"I have to admit, I keep feeling outraged whenever I remember the repeated mistake. That is my honest reaction.",anger,anger,0.9999972581863403
+Thinking about the last-minute change leaves me stunned. That is my honest reaction.,surprise,surprise,1.0
+"I have to admit, I feel very joyful about meeting my friends. I can feel it strongly.",joy,joy,0.9999985694885254
+Today I feel devoted; it is connected to a thoughtful message. It has stayed on my mind.,love,love,0.9999990463256836
+"I have to admit, Right now I am incredibly thrilled. The feeling is difficult to ignore.",joy,joy,0.9997022747993469
+"I have to admit, My mood is enraged after the unnecessary delay. That is my honest reaction.",anger,anger,0.999998927116394
+"I have to admit, I feel quite resentful about the rude response. The feeling is difficult to ignore.",anger,anger,0.9999990463256836
+"To be honest, I keep feeling down whenever I remember losing the opportunity. It has stayed on my mind.",sadness,sadness,0.999998927116394
+I feel truly pleased about today's good news. I can feel it strongly.,joy,joy,0.9999983310699463
+My mood is panicked after the risky journey. It has stayed on my mind.,fear,fear,0.9999990463256836
+"At this moment, I keep feeling lonely whenever I remember losing the opportunity.",sadness,sadness,0.9999984502792358
+"At this moment, I keep feeling fond whenever I remember the kindness I received. It has stayed on my mind.",love,love,0.9999995231628418
+"I have to admit, The way I feel can only be described as fond. The feeling is difficult to ignore.",love,love,0.999942421913147
+"Honestly, the repeated mistake makes me feel cross. It has stayed on my mind.",anger,anger,0.9999991655349731
+I feel completely furious about the broken promise. The feeling is difficult to ignore.,anger,anger,0.9999995231628418
+"I have to admit, I keep feeling unhappy whenever I remember a lonely evening. It has stayed on my mind.",sadness,sadness,0.9999998807907104
+"I have to admit, It is hard to hide how furious I feel about the broken promise.",anger,anger,0.9999958276748657
+Right now I am very cross. It has stayed on my mind.,anger,anger,0.9999616146087646
+"At this moment, I keep feeling loving whenever I remember our time together.",love,love,0.9999974966049194
+"I have to admit, It is hard to hide how in disbelief I feel about the sudden gift. That is my honest reaction.",surprise,surprise,0.9999994039535522
+"I have to admit, Today I feel outraged; it is connected to the repeated mistake. That is my honest reaction.",anger,anger,0.9999972581863403
+I am happy because of the wonderful celebration. I can feel it strongly.,joy,joy,0.9999963045120239
+"I have to admit, I keep feeling amazed whenever I remember the shocking update. That is my honest reaction.",surprise,surprise,0.9999996423721313
+"After thinking about it, Thinking about our time together leaves me devoted.",love,love,0.999998927116394
+"At this moment, I am panicked because of what might happen tomorrow. I can feel it strongly.",fear,fear,0.9999990463256836
+My mood is unexpectedly amazed after the unbelievable result. The feeling is difficult to ignore.,surprise,surprise,0.9999998807907104
+"At this moment, I feel extremely frustrated about the unnecessary delay.",anger,anger,0.9999988079071045
+"To be honest, My mood is tearful after missing my friends. That is my honest reaction.",sadness,sadness,0.9999988079071045
+"At this moment, My mood is terrified after what might happen tomorrow. The feeling is difficult to ignore.",fear,fear,0.9999963045120239
+Thinking about the wonderful celebration leaves me happy.,joy,joy,0.9999979734420776
+"I have to admit, My mood is delighted after the new opportunity. I can feel it strongly.",joy,joy,0.9999960660934448
+"At this moment, Right now I am extremely romantic. That is my honest reaction.",love,love,0.9999258518218994
+"At this moment, It is hard to hide how irritated I feel about the unnecessary delay. I can feel it strongly.",anger,anger,0.999998927116394
+"I have to admit, Honestly, today's good news makes me feel happy. The feeling is difficult to ignore.",joy,joy,0.9999955892562866
+"After thinking about it, My mood is shocked after the sudden gift. The feeling is difficult to ignore.",surprise,surprise,0.9999998807907104
+"After thinking about it, It is hard to hide how gloomy I feel about losing the opportunity. The feeling is difficult to ignore.",sadness,sadness,0.9999986886978149
+"At this moment, I keep feeling startled whenever I remember the shocking update. I can feel it strongly.",surprise,surprise,0.9999997615814209
+"Honestly, the unbelievable result makes me feel startled.",surprise,surprise,0.9999991655349731
+"At this moment, Today I feel worried; it is connected to speaking in public. I can feel it strongly.",fear,fear,0.9999994039535522
+"I have to admit, Today I feel devoted; it is connected to our time together. The feeling is difficult to ignore.",love,love,0.9999977350234985
+Today I feel miserable; it is connected to the failed plan. That is my honest reaction.,sadness,sadness,0.9999970197677612
+"To be honest, Honestly, losing the opportunity makes me feel sorrowful. The feeling is difficult to ignore.",sadness,sadness,0.9999966621398926
+"To be honest, My mood is pleased after meeting my friends. It has stayed on my mind.",joy,joy,0.9999967813491821
+"After thinking about it, Today I feel outraged; it is connected to the broken promise.",anger,anger,0.9999955892562866
+"To be honest, Right now I am incredibly unexpectedly amazed. That is my honest reaction.",surprise,surprise,0.9999818801879883
+"I have to admit, My mood is speechless after the surprise visitor. I can feel it strongly.",surprise,surprise,0.9999988079071045
+I am devoted because of a thoughtful message.,love,love,0.9999991655349731
+Right now I am extremely lonely. I can feel it strongly.,sadness,sadness,0.9999828338623047
+"After thinking about it, I feel quite grateful about the new opportunity.",joy,joy,0.9999992847442627
+"To be honest, I am cross because of the repeated mistake. I can feel it strongly.",anger,anger,0.9999984502792358
+"At this moment, Right now I am very amazed.",surprise,surprise,0.9974753260612488
+"To be honest, It is hard to hide how excited I feel about today's good news. I can feel it strongly.",joy,joy,0.9999992847442627
+"At this moment, I keep feeling devoted whenever I remember our time together. It has stayed on my mind.",love,love,0.9999985694885254
+"At this moment, My mood is affectionate after the person I care about. The feeling is difficult to ignore.",love,love,0.999998927116394
+"I have to admit, Right now I am quite fond. That is my honest reaction.",love,love,0.999967098236084
+Today I feel terrified; it is connected to the sudden noise. The feeling is difficult to ignore.,fear,fear,0.9999973773956299
+"To be honest, It is hard to hide how irritated I feel about the rude response. The feeling is difficult to ignore.",anger,anger,0.9999988079071045
+"To be honest, I keep feeling tearful whenever I remember the failed plan. I can feel it strongly.",sadness,sadness,0.9999998807907104
+"I have to admit, My mood is worried after the risky journey. I can feel it strongly.",fear,fear,0.9999990463256836
+"At this moment, It is hard to hide how in disbelief I feel about the shocking update. I can feel it strongly.",surprise,surprise,0.9999988079071045
+"To be honest, My mood is enraged after the rude response. I can feel it strongly.",anger,anger,0.9999997615814209
+"At this moment, The way I feel can only be described as pleased. It has stayed on my mind.",joy,joy,0.9998629093170166
+"To be honest, My mood is tender after the kindness I received. It has stayed on my mind.",love,love,0.9999998807907104
+"After thinking about it, I am wonderful because of meeting my friends. The feeling is difficult to ignore.",joy,joy,0.9999972581863403
+"To be honest, Thinking about the uncertain situation leaves me nervous.",fear,fear,0.9999986886978149
+"I have to admit, I am astonished because of the shocking update. The feeling is difficult to ignore.",surprise,surprise,0.9999997615814209
+I am worried because of the uncertain situation. I can feel it strongly.,fear,fear,0.9999998807907104
+"At this moment, The way I feel can only be described as outraged. The feeling is difficult to ignore.",anger,anger,0.9996778964996338
+"I have to admit, I keep feeling loving whenever I remember the person I care about. I can feel it strongly.",love,love,0.9999994039535522
+"I have to admit, Right now I am truly startled.",surprise,surprise,0.9963210821151733
+"I have to admit, Today I feel nervous; it is connected to the risky journey. That is my honest reaction.",fear,fear,0.9999977350234985
+"To be honest, I am joyful because of today's good news.",joy,joy,0.9999977350234985
+I keep feeling scared whenever I remember the sudden noise. The feeling is difficult to ignore.,fear,fear,0.999995231628418
+"I have to admit, Today I feel terrified; it is connected to what might happen tomorrow. The feeling is difficult to ignore.",fear,fear,0.999996542930603
+"I have to admit, My mood is anxious after the sudden noise. I can feel it strongly.",fear,fear,0.999993085861206
+"After thinking about it, Right now I am deeply wonderful. That is my honest reaction.",joy,joy,0.9999850988388062
+"I have to admit, My mood is affectionate after a thoughtful message. It has stayed on my mind.",love,love,0.9999994039535522
+"At this moment, Thinking about my family leaves me close. The feeling is difficult to ignore.",love,love,0.9999920129776001
+Right now I am so cheerful. The feeling is difficult to ignore.,joy,joy,0.9998552799224854
+"To be honest, My mood is miserable after the difficult goodbye. It has stayed on my mind.",sadness,sadness,0.9999991655349731
+"To be honest, I keep feeling tender whenever I remember my family.",love,love,0.9999945163726807
+"After thinking about it, I keep feeling devoted whenever I remember our time together. It has stayed on my mind.",love,love,0.999998927116394
+"After thinking about it, Today I feel anxious; it is connected to the upcoming examination.",fear,fear,0.9999980926513672
+"To be honest, The way I feel can only be described as startled. I can feel it strongly.",surprise,surprise,0.9998644590377808

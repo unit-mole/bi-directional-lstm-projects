@@ -1,27 +1,33 @@
 # Dataset Guide
 
-## Supplied file
+## Bundled dataset
 
-`emotion_dataset.csv` and `sample_emotion_data.csv` currently contain the **10-row placeholder dataset** supplied with the notebook. Its columns are:
+`emotion_dataset_full.csv` contains 7,200 balanced, deterministic, template-augmented English examples across:
 
-- `text` — short input sentence
-- `emotion` — target emotion label
+- anger
+- fear
+- joy
+- love
+- sadness
+- surprise
 
-The six labels appearing in this placeholder are `joy`, `anger`, `fear`, `sadness`, `surprise`, and `calm`. Several classes have only one example, so this file is suitable for code and UI demonstrations—not credible model evaluation.
+It is included so the complete pipeline can be trained and deployed immediately. It is appropriate for application smoke testing and architecture demonstration, but not for real-world benchmark claims.
 
-## Recommended full dataset workflow
+## Recommended research dataset
 
-1. Obtain the complete dataset from its original licensed source.
-2. Review the dataset license and privacy terms before redistributing it.
-3. Save the local file as `data/emotion_dataset_full.csv` or another explicit name.
-4. Run:
+For stronger retraining, use the DAIR.AI Emotion dataset. Its split configuration contains 16,000 training, 2,000 validation, and 2,000 test examples and the same six labels. The dataset card states that it is intended for educational and research purposes.
 
-```bash
-python scripts/train_model.py --data data/emotion_dataset_full.csv
+Citation:
+
+```bibtex
+@inproceedings{saravia-etal-2018-carer,
+  title = {CARER: Contextualized Affect Representations for Emotion Recognition},
+  author = {Saravia, Elvis and Liu, Hsien-Chi Toby and Huang, Yen-Hao and Wu, Junlin and Chen, Yi-Shin},
+  booktitle = {Proceedings of EMNLP 2018},
+  year = {2018},
+  pages = {3687--3697},
+  doi = {10.18653/v1/D18-1404}
+}
 ```
 
-The loader dynamically detects common text and label columns. It does not hardcode a fixed label list.
-
-## GitHub safety
-
-Do not commit private messages, confidential customer feedback, personally identifiable data, or any full dataset whose license does not permit redistribution. The project `.gitignore` excludes `data/emotion_dataset_full.csv`, `data/raw/`, and `data/processed/` by default.
+Before adding an external dataset to GitHub, confirm its license and redistribution terms.

@@ -1,14 +1,4 @@
-import pytest
-
-pytest.importorskip("tensorflow")
-import tensorflow as tf
-
+import torch
 from src.attention_layer import TemporalAttention
-
-
-def test_attention_scores_sum_to_one():
-    layer = TemporalAttention()
-    inputs = tf.random.normal((2, 4, 8))
-    context, scores = layer(inputs)
-    assert context.shape == (2, 8)
-    tf.debugging.assert_near(tf.reduce_sum(scores, axis=1), tf.ones((2,)))
+def test_attention_shape_and_normalization():
+    layer=TemporalAttention(8); sequence=torch.randn(2,5,8); mask=torch.tensor([[1,1,1,0,0],[1,1,1,1,1]],dtype=torch.bool); context,weights=layer(sequence,mask); assert context.shape==(2,8); assert weights.shape==(2,5); assert torch.allclose(weights.sum(1),torch.ones(2),atol=1e-5); assert weights[0,3:].max().item()<1e-6

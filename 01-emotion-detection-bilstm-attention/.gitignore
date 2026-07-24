@@ -1,20 +1,4 @@
 __pycache__/
-*.py[cod]
 .pytest_cache/
-.ruff_cache/
 .venv/
-.env
 .streamlit/secrets.toml
-
-# Full/raw data should be reviewed for license and privacy before committing.
-data/raw/
-data/processed/
-data/emotion_dataset_full.csv
-
-# Generated training artifacts
-models/checkpoints/
-models/best_emotion_bilstm_attention_model.keras
-outputs/*.tmp
-logs/
-
-# Preserve the curated demo checkpoint and metadata already included in this project.

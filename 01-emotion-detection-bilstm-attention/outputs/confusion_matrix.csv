@@ -1,0 +1,7 @@
+,anger,fear,joy,love,sadness,surprise
+anger,180,0,0,0,0,0
+fear,0,180,0,0,0,0
+joy,0,0,180,0,0,0
+love,0,0,0,180,0,0
+sadness,0,0,0,0,180,0
+surprise,0,0,0,0,0,180

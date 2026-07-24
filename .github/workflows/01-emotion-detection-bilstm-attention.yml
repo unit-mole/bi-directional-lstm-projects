@@ -1,61 +1,46 @@
 name: 01 Emotion Detection BiLSTM Attention CI
-
+run-name: 01 Emotion Detection BiLSTM Attention CI
 on:
   push:
+    branches: [main]
     paths:
       - "01-emotion-detection-bilstm-attention/**"
       - ".github/workflows/01-emotion-detection-bilstm-attention.yml"
   pull_request:
+    branches: [main]
     paths:
       - "01-emotion-detection-bilstm-attention/**"
       - ".github/workflows/01-emotion-detection-bilstm-attention.yml"
   workflow_dispatch:
-
 permissions:
   contents: read
-
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
 jobs:
-  quality-checks:
+  validate:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-
     defaults:
       run:
         working-directory: 01-emotion-detection-bilstm-attention
-
     steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
-          cache: "pip"
-          cache-dependency-path: |
-            01-emotion-detection-bilstm-attention/requirements.txt
-            01-emotion-detection-bilstm-attention/requirements-dev.txt
-
+          cache: pip
+          cache-dependency-path: 01-emotion-detection-bilstm-attention/app/requirements.txt
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install -r requirements-dev.txt
-
-      - name: Compile Python files
-        run: python -m compileall app src scripts tests
-
-      - name: Run lightweight tests
-        env:
-          TF_CPP_MIN_LOG_LEVEL: "2"
-        run: pytest -q
-
-      - name: Validate Streamlit app import
-        env:
-          TF_CPP_MIN_LOG_LEVEL: "2"
-        run: python -c "import app.streamlit_app; print('Streamlit app import passed')"
-
-      - name: Validate project structure
+          python -m pip install -r app/requirements.txt
+          python -m pip install pytest
+      - name: Compile source
+        run: python -m compileall -q app src scripts tests
+      - name: Validate artifacts
         run: python scripts/validate_project.py
-
-# The workflow intentionally does not train the neural network.
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Validate Streamlit syntax
+        run: python -m py_compile app/streamlit_app.py

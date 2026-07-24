@@ -1,15 +1,12 @@
-# Improvements Applied to the Supplied Project
+# Improvements Implemented
 
-1. Added a real serializable temporal attention layer.
-2. Changed the BiLSTM to `return_sequences=True` so attention can operate across tokens.
-3. Fit the tokenizer on training data only.
-4. Split the dataframe once to prevent metadata/sequence misalignment.
-5. Added robust column detection, missing-value handling, duplicate removal, and label standardization.
-6. Added class-support validation instead of silently discarding rare labels.
-7. Added balanced class weights and macro/weighted F1 metrics.
-8. Added baseline modeling, confusion matrix, classification report, and error-analysis exports.
-9. Added model metadata, consistent artifact loading, and attention extraction.
-10. Added a complete Streamlit app with manual and CSV prediction modes.
-11. Added privacy and responsible-use notices to both README and app.
-12. Added unit tests, GitHub Actions, Docker, local-run scripts, hosting instructions, and monorepo documentation.
-13. Preserved the supplied checkpoint as a clearly named legacy artifact rather than misrepresenting it as an attention model.
+1. Expanded the deployed label space from three to six emotions.
+2. Replaced the non-attention legacy checkpoint with a real temporal-attention model.
+3. Added deterministic model and vocabulary artifacts for immediate deployment.
+4. Added an uncertainty message below 55% confidence.
+5. Added token-level attention charts.
+6. Added reusable preprocessing, vocabulary, model, training, evaluation, and inference modules.
+7. Added balanced dataset generation and class-weighted training.
+8. Added automated tests and artifact validation.
+9. Added Streamlit-specific dependency placement.
+10. Added complete deployment, retraining, audit, and responsible-use documentation.

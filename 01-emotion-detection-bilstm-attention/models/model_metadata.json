@@ -1,0 +1,63 @@
+{
+  "project": "01-emotion-detection-bilstm-attention",
+  "framework": "PyTorch",
+  "model_type": "Bidirectional LSTM with Temporal Attention",
+  "artifact_status": "bundled_trained_attention_model",
+  "model_path": "emotion_bilstm_attention.pt",
+  "vocabulary_path": "vocabulary.json",
+  "label_mapping_path": "label_mapping.json",
+  "classes": [
+    "anger",
+    "fear",
+    "joy",
+    "love",
+    "sadness",
+    "surprise"
+  ],
+  "number_of_classes": 6,
+  "vocabulary_size": 193,
+  "max_sequence_length": 40,
+  "training_config": {
+    "random_seed": 42,
+    "max_vocab_size": 12000,
+    "max_sequence_length": 40,
+    "embedding_dimension": 96,
+    "lstm_units": 64,
+    "dense_units": 96,
+    "dropout_rate": 0.3,
+    "batch_size": 64,
+    "epochs": 12,
+    "learning_rate": 0.001,
+    "validation_size": 0.15,
+    "test_size": 0.15,
+    "minimum_samples_per_class": 50
+  },
+  "dataset_audit": {
+    "input_rows": 7200,
+    "cleaned_rows": 7200,
+    "duplicate_rows_removed": 0,
+    "text_column": "text",
+    "label_column": "emotion",
+    "class_counts": {
+      "anger": 1200,
+      "fear": 1200,
+      "joy": 1200,
+      "love": 1200,
+      "sadness": 1200,
+      "surprise": 1200
+    }
+  },
+  "split_rows": {
+    "train": 5040,
+    "validation": 1080,
+    "test": 1080
+  },
+  "evaluation_metrics": {
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "test_rows": 1080
+  },
+  "dataset_note": "Bundled checkpoint trained on a deterministic template-augmented educational dataset. Replace with a licensed real-world corpus for research conclusions.",
+  "responsible_use": "Educational portfolio demonstration only; not for mental-health diagnosis or high-stakes decisions."
+}

@@ -1,25 +1,7 @@
-"""Train the TF-IDF + Logistic Regression comparison baseline."""
-
-from __future__ import annotations
-
-import argparse
-import json
-import sys
 from pathlib import Path
-
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-if str(PROJECT_ROOT) not in sys.path:
-    sys.path.insert(0, str(PROJECT_ROOT))
-
-from src.baseline_model import train_baseline
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--data", type=Path, default=PROJECT_ROOT / "data" / "emotion_dataset.csv")
-    args = parser.parse_args()
-    print(json.dumps(train_baseline(args.data, PROJECT_ROOT / "outputs"), indent=2))
-
-
-if __name__ == "__main__":
-    main()
+import sys, joblib
+ROOT=Path(__file__).resolve().parents[1]; sys.path.insert(0,str(ROOT))
+from src.data_preprocessing import load_and_clean_dataset, split_dataframe
+from src.baseline_model import build_baseline
+frame,_=load_and_clean_dataset(ROOT/"data/emotion_dataset_full.csv"); train,_,test=split_dataframe(frame)
+model=build_baseline(); model.fit(train["text_clean"],train["emotion"]); print("Baseline accuracy:",model.score(test["text_clean"],test["emotion"])); joblib.dump(model,ROOT/"models/tfidf_logistic_baseline.joblib")

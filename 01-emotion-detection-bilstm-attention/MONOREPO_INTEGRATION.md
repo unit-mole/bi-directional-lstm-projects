@@ -1,9 +1,15 @@
 # Monorepo Integration
 
-- Project folder: `01-emotion-detection-bilstm-attention/`
-- CI workflow: `.github/workflows/01-emotion-detection-bilstm-attention.yml`
-- Streamlit entry point: `01-emotion-detection-bilstm-attention/app/streamlit_app.py`
-- Runtime requirements: `01-emotion-detection-bilstm-attention/requirements.txt`
-- Project tests are isolated inside the project folder.
-- Model training is never executed by CI or Streamlit startup.
-- Future numbered projects should replicate this same separation of app, data, models, notebooks, outputs, scripts, source modules, tests, and documentation.
+Project folder:
+
+`01-emotion-detection-bilstm-attention/`
+
+Workflow:
+
+`.github/workflows/01-emotion-detection-bilstm-attention.yml`
+
+Streamlit entrypoint:
+
+`01-emotion-detection-bilstm-attention/app/streamlit_app.py`
+
+The workflow uses path filters, so a Project 01 change triggers only the Project 01 CI workflow.
